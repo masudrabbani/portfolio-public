@@ -1,8 +1,10 @@
 # Audited public GitHub Pages preview
 
-This package is prepared locally. It does not deploy anything until the owner approves committing the workflow to `masudrabbani/portfolio-public` and enables GitHub Pages with **GitHub Actions** as its publishing source.
+This public-only test copy was deployed with the owner's approval on October 23, 2026. GitHub Pages uses **GitHub Actions** as its publishing source. The published files passed an exact-content comparison with the reviewed static export.
 
-Expected preview: <https://masudrabbani.github.io/portfolio-public/>. Keep the custom-domain setting empty. Do not add `CNAME`, change DNS, alter the old private repository, or grant the Cloudflare GitHub app access to this new repository.
+Preview: <https://masudrabbani.github.io/portfolio-public/>. The official website remains <https://masudrabbani.com/>. Keep the custom-domain setting empty. Do not add `CNAME`, change DNS, alter the old private repository, or grant the Cloudflare GitHub app access to this new repository.
+
+This preview is a published snapshot, not yet connected to automatic publishing from the private Cloudflare admin. A separately reviewed connection is needed before admin edits can update this repository. The existing admin and live website are unchanged.
 
 ## Only these files belong in the new public repository
 
@@ -14,7 +16,7 @@ Expected preview: <https://masudrabbani.github.io/portfolio-public/>. Keep the c
 
 Do not upload this directory indiscriminately. `tests/` and `tools/` are local verification/packaging material and are not part of the upload list. Never upload private source code, databases, backups, deployment logs, credentials, or owner-only files. The archive itself becomes public as soon as it is committed, before the workflow can inspect it; run the local audit **before** upload.
 
-## Permission review before enabling
+## Reviewed deployment permissions
 
 The workflow only runs on `main` in the exact new public repository. It runs on a manual request or a push changing the archive, manifest, verifier, or workflow. Pushes can therefore publish automatically after setup. It has no PR, schedule, or external dispatch trigger.
 
