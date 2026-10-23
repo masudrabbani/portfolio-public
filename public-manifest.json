@@ -1,0 +1,2098 @@
+{
+  "format": "portfolio-public-pages-v1",
+  "basePath": "/portfolio-public/",
+  "origin": "https://masudrabbani.github.io",
+  "archiveSha256": "fbf8059886eebaac778b892ddcdff0e0a24a18551a3495ca2258631673ed82a8",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 11674,
+      "sha256": "4238c513eaa53440a8971ad8082c74f004bdaf100db230df3e89a474661e9c90"
+    },
+    {
+      "path": "404.rsc",
+      "bytes": 5352,
+      "sha256": "b8c6a2903c22e5e31a50d1b5bb41dd446f054a775ebd7b589579cede7da2d505"
+    },
+    {
+      "path": "about.rsc",
+      "bytes": 22352,
+      "sha256": "c5c158a548a7039205bc093251b3d00346069f3f6bfdad93d87a252ae73a3bd4"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 43058,
+      "sha256": "9c70788fb9a3334765f81e7afde441d9f64a0ee5ec5f44dffca88057ec6b5955"
+    },
+    {
+      "path": "academic-genealogy.rsc",
+      "bytes": 34895,
+      "sha256": "c7a05dc7e041ab44923e62c7efa729d32dd80163cb1969b2fa13f09cc25cc611"
+    },
+    {
+      "path": "academic-genealogy/index.html",
+      "bytes": 70956,
+      "sha256": "f3260c838a64eafc89b07e5052f3151ac34b72102c2e2663a68e33141c8d288b"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 3002,
+      "sha256": "ff94156d8639d7afd64c83bb8ab10c3c47ff615743d1182d0f054721fa1a4bbe"
+    },
+    {
+      "path": "blog-assets/voice-ai-learning.png",
+      "bytes": 82413,
+      "sha256": "8cec0a6ff02866da502f79310c4413a9b6a8d0fc70d3d9969ffb75d7c200c4ec"
+    },
+    {
+      "path": "blog-assets/voice-ai-learning.svg",
+      "bytes": 3473,
+      "sha256": "aed50b0a0a6605a0765ed2255ea4919989681e611e8434460311092885a57888"
+    },
+    {
+      "path": "blog.rsc",
+      "bytes": 21324,
+      "sha256": "3a74e168d28034919701d976171c7ac1bb9cc8e49bd9b2b136ce1a24ddfcb6ba"
+    },
+    {
+      "path": "blog/can-an-eeg-headset-read-your-mind.rsc",
+      "bytes": 35211,
+      "sha256": "a71cfdd0814a587de213e00f58164fe6ba1ac18104c0d299c141424d132a0488"
+    },
+    {
+      "path": "blog/can-an-eeg-headset-read-your-mind/index.html",
+      "bytes": 70071,
+      "sha256": "460ab781dd7cb12c233870691a60cce74a65ce59c8d635a8046c50f6e0cef0c4"
+    },
+    {
+      "path": "blog/can-an-eeg-headset-really-measure-your-focus.rsc",
+      "bytes": 39486,
+      "sha256": "67c1e178d4ea057bda49bcf59fce7d8aa40860a4f7ff94c458d0b035741bb535"
+    },
+    {
+      "path": "blog/can-an-eeg-headset-really-measure-your-focus/index.html",
+      "bytes": 78664,
+      "sha256": "809ea373c2de4ca6bea3aff61781b1fe17031bdaaab4afdfd5357c10857299bf"
+    },
+    {
+      "path": "blog/could-your-phone-count-white-blood-cells.rsc",
+      "bytes": 35639,
+      "sha256": "c62596faaed7d0b89db67531cd61e07adadeea906e6d7b712e5d96bcfa5956e4"
+    },
+    {
+      "path": "blog/could-your-phone-count-white-blood-cells/index.html",
+      "bytes": 71915,
+      "sha256": "6baee766f749c4160cfae1999f6d1b80fdfe2eb5a4b60f6006df5bdbdd1d3d84"
+    },
+    {
+      "path": "blog/does-quantum-ai-always-beat-regular-ai.rsc",
+      "bytes": 35306,
+      "sha256": "ff4365f9e42ade6c7194d4546cd1644f82a2e80c4884ad9eaeb6541d91c2f083"
+    },
+    {
+      "path": "blog/does-quantum-ai-always-beat-regular-ai/index.html",
+      "bytes": 70853,
+      "sha256": "6e91e0fad23b4c5f8291905e2a5fabcfe1a331fd6a6f1b3000950082d10f21fa"
+    },
+    {
+      "path": "blog/feed-style.xsl",
+      "bytes": 3868,
+      "sha256": "206ed9cc4eb162f692c0269400022a3b92c10f1670bbf2672c0f431bd8de7f7d"
+    },
+    {
+      "path": "blog/feed.xml",
+      "bytes": 2747,
+      "sha256": "548a1ae3a0e04f59b80a0244c640cf2435f83e22309ec4a4d3db094593a2616f"
+    },
+    {
+      "path": "blog/index.html",
+      "bytes": 41471,
+      "sha256": "f319ab6d238179dd0632a6ba0a08ae5cc7033780cb6810974a7b24419a74ee30"
+    },
+    {
+      "path": "blog/why-voice-ai-understands-some-accents-better.rsc",
+      "bytes": 36268,
+      "sha256": "3e210db22b3ab5d93636e62376e9aabacb4034d0f77d2568f52bd355be128b3e"
+    },
+    {
+      "path": "blog/why-voice-ai-understands-some-accents-better/index.html",
+      "bytes": 74056,
+      "sha256": "0139e81903768ae0ffab7e60ca3336466a87fc08bdd65626fdff3aeb3e4e95cd"
+    },
+    {
+      "path": "cached-media/20260901-2/apple-touch-icon.png",
+      "bytes": 3002,
+      "sha256": "ff94156d8639d7afd64c83bb8ab10c3c47ff615743d1182d0f054721fa1a4bbe"
+    },
+    {
+      "path": "cached-media/20260901-2/blog-assets/voice-ai-learning.png",
+      "bytes": 82413,
+      "sha256": "8cec0a6ff02866da502f79310c4413a9b6a8d0fc70d3d9969ffb75d7c200c4ec"
+    },
+    {
+      "path": "cached-media/20260901-2/blog-assets/voice-ai-learning.svg",
+      "bytes": 3473,
+      "sha256": "aed50b0a0a6605a0765ed2255ea4919989681e611e8434460311092885a57888"
+    },
+    {
+      "path": "cached-media/20260901-2/favicon.ico",
+      "bytes": 930,
+      "sha256": "c51a6e073dd2f11f5498396779373106850a4fc971a615298ecb533196780008"
+    },
+    {
+      "path": "cached-media/20260901-2/favicon.svg",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "cached-media/20260901-2/masud-rabbani.jpg",
+      "bytes": 57485,
+      "sha256": "a0dbfb309e741bf77e71f67aa9c7fa8ab5708d17e20529632cb177f8047ff400"
+    },
+    {
+      "path": "cached-media/20260901-2/og-evergreen.png",
+      "bytes": 775324,
+      "sha256": "200fbef266fc311e7fa126ffec46863b78261d04e7148a631e8ef40833f161ef"
+    },
+    {
+      "path": "cached-media/20260901-2/og.png",
+      "bytes": 843042,
+      "sha256": "3b82e05a2c344988f35f644c57db7997231633bd1decfb67cc9361c5d9d0bc89"
+    },
+    {
+      "path": "cached-static/_next/static/09741270-848f-43f6-91c5-932762bc53dd/_buildManifest.js",
+      "bytes": 159,
+      "sha256": "47f02b34be6dc481257b6efce4c19e19111f37ef5c437f8ffed44f0da97fa9bb"
+    },
+    {
+      "path": "cached-static/_next/static/09741270-848f-43f6-91c5-932762bc53dd/_ssgManifest.js",
+      "bytes": 76,
+      "sha256": "653f3e53e89b4f8548ff86c19e92bb3c6b84b6be7485a320b1e00893ed877479"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/blog-quiz-BbZCRhFn.js",
+      "bytes": 1445,
+      "sha256": "927b571afba36b9722f23bbc82167b2286bb3662487baa8a8e240a59fffc505c"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/copy-email-button-BPH6Jsjm.js",
+      "bytes": 1060,
+      "sha256": "a9a2779e006f3665318405b689f4411bcb1c47727440ca17be98324693404376"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/framework-BKkbuxQZ.js",
+      "bytes": 190152,
+      "sha256": "690afc6cbe3cf0178e0b823a4d5aac38c6a6385e59da9afec0a7da5a4e4d95cb"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/index-BLxSc4En.js",
+      "bytes": 187028,
+      "sha256": "43ac1b3db47c61b42c41c36ff530ce804b49921891d6ab1884066bf267388089"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/interactive-arrow-field-CnzPfGjj.js",
+      "bytes": 2009,
+      "sha256": "64462c1b7976cac29fea63b3a31ad39a8c0c8ab3354f83219c07a2aac14f3dac"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/knowledge-river-DZhAFsAK.js",
+      "bytes": 8817,
+      "sha256": "a422f13c0a5e4eef7c7fafb8a4eeb18a6c7c99b5ba9408d13aa58ebe22cfc83a"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/layout-segment-context-SSztpKVe.js",
+      "bytes": 494,
+      "sha256": "a17fcd786d457457fdc7fce63dcf8f4f436b01ba06590e280ad6625ae2178209"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/news-ticker-DA5ATyAW.js",
+      "bytes": 1298,
+      "sha256": "6cabb44c0927b36a21b9d86f151679c15481645df8ec2b8e2463918a2fa8256b"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/regional-google-analytics-gCKGarz0.js",
+      "bytes": 526,
+      "sha256": "96fa2c4e7a20c7932aa09fa6e6894cefd8e1dfb8385d78f1078f1139549d0c82"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/rolldown-runtime-Btl7EJY-.js",
+      "bytes": 694,
+      "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75"
+    },
+    {
+      "path": "cached-static/_next/static/chunks/theme-controls-DT6upgWC.js",
+      "bytes": 1534,
+      "sha256": "49d1791b2ca7269df16c0415d342c0efab5fc39c4fd68de28e9f1ed01b023ed7"
+    },
+    {
+      "path": "cached-static/_next/static/css/index.BzQtIw4U.css",
+      "bytes": 177299,
+      "sha256": "2cfc4413b2962ee0b9c994703d88d1efe8fb5d99abd6ee08443560131144e625"
+    },
+    {
+      "path": "citations/book_chapters-1-quantum-computing-for-smart-.bib",
+      "bytes": 450,
+      "sha256": "36d25c23e7514ef116e337a8c5620976113f97d4efca154768d3cf3c7687683d"
+    },
+    {
+      "path": "citations/book_chapters-1-quantum-computing-for-smart-.ris",
+      "bytes": 1824,
+      "sha256": "3f05d8fd20ca727b6e92df531fd268fb4c2b4dbd3820c37ca4594e810043aa93"
+    },
+    {
+      "path": "citations/book_chapters-2-a-mobile-health-application-.bib",
+      "bytes": 673,
+      "sha256": "12e618d65b9213d07fc1ef811a8f086141b06995b0294aa3bf00aaf755bf3a9a"
+    },
+    {
+      "path": "citations/book_chapters-2-a-mobile-health-application-.ris",
+      "bytes": 1806,
+      "sha256": "426c95b1dfb4c3ce60ee220c6ee8e1d6aaec497750030e172ce9642fb7dab076"
+    },
+    {
+      "path": "citations/book_chapters-3-a-handbook-of-c-programming-.bib",
+      "bytes": 337,
+      "sha256": "c4e860ef0cb7a2e65a25412f362a87a6cc50c8b63f7fcb3a950a31784ad02b04"
+    },
+    {
+      "path": "citations/book_chapters-3-a-handbook-of-c-programming-.ris",
+      "bytes": 634,
+      "sha256": "57d6408ea72b834ec56dd678d55c3d21b886b02dc297dbd2f418881fbd04fe2a"
+    },
+    {
+      "path": "citations/conference_articles-1-agentic-ai-for-eeg-based-bra.bib",
+      "bytes": 556,
+      "sha256": "f28daf982f35f2636d57e31ecc858c8a13b404a5edf5be3fe3708a8e86208c3d"
+    },
+    {
+      "path": "citations/conference_articles-1-agentic-ai-for-eeg-based-bra.ris",
+      "bytes": 2402,
+      "sha256": "e31e9dc2ea5aa3d07d658040d61e16b5d511488068d8a112d01a1a5000d80675"
+    },
+    {
+      "path": "citations/conference_articles-10-towards-a-multi-model-compar.bib",
+      "bytes": 507,
+      "sha256": "84a71e81814c90829fe1474e1deae05d26a54451c62b198df199a01751323811"
+    },
+    {
+      "path": "citations/conference_articles-10-towards-a-multi-model-compar.ris",
+      "bytes": 2363,
+      "sha256": "7d276bacf507743e72ca320a6c4412e610afc4b4eac3e7d560de3effd315e666"
+    },
+    {
+      "path": "citations/conference_articles-11-a-comparative-study-of-class.bib",
+      "bytes": 614,
+      "sha256": "3a9c108b130b3d055e9a97b18166fd1e0aaaf7be453688fac03524cc2b6f7c92"
+    },
+    {
+      "path": "citations/conference_articles-11-a-comparative-study-of-class.ris",
+      "bytes": 2213,
+      "sha256": "6275ed044088ea83132dd84dd2277eba8b81a13916059ad0b5c9a1f0d47ad184"
+    },
+    {
+      "path": "citations/conference_articles-12-natural-language-processing-.bib",
+      "bytes": 576,
+      "sha256": "2fe88f56e0ae66c3857dfa94a2b0bb20f887c3b09e2c262675bd2f0e4f722baa"
+    },
+    {
+      "path": "citations/conference_articles-12-natural-language-processing-.ris",
+      "bytes": 2568,
+      "sha256": "e5f6ad6a1bf25b632babbb560ccdeceb1bacc5990efb4424d4ff4bd4d1acd4ec"
+    },
+    {
+      "path": "citations/conference_articles-13-cfscare-ml-based-activity-mo.bib",
+      "bytes": 603,
+      "sha256": "21795a3fec42132f3ed36574568036b4ae95797256c7241fcc44fe5d94583cc4"
+    },
+    {
+      "path": "citations/conference_articles-13-cfscare-ml-based-activity-mo.ris",
+      "bytes": 2390,
+      "sha256": "7d969cfdd2354eb2b030f2c1b18444618c0586200cbf34c3406d27c8c207652a"
+    },
+    {
+      "path": "citations/conference_articles-14-identifying-medical-concepts.bib",
+      "bytes": 631,
+      "sha256": "135b50d2ac08303e17cdaeffc077f5231d394620d847c61f3396e7057df75456"
+    },
+    {
+      "path": "citations/conference_articles-14-identifying-medical-concepts.ris",
+      "bytes": 1916,
+      "sha256": "855df6d1ba9b123121df6dc135432f6a01a5ca5a100d3aebddfb9ffab530ad39"
+    },
+    {
+      "path": "citations/conference_articles-15-ml-based-chronic-kidney-dise.bib",
+      "bytes": 578,
+      "sha256": "9c181697dbd144d2e578ea746d2404c938c13cc26ea8150e4d9f7220dcc29f73"
+    },
+    {
+      "path": "citations/conference_articles-15-ml-based-chronic-kidney-dise.ris",
+      "bytes": 2171,
+      "sha256": "ce132bb93d282239640c867645dfc22e2b105dd426460e77e3fccbdb65e5174c"
+    },
+    {
+      "path": "citations/conference_articles-16-a-chaos-based-non-linear-ana.bib",
+      "bytes": 653,
+      "sha256": "939e1afd62d41c5e588d810498d94de2210494c924ae82b1a178279e9a538679"
+    },
+    {
+      "path": "citations/conference_articles-16-a-chaos-based-non-linear-ana.ris",
+      "bytes": 2309,
+      "sha256": "84d1b518cce5daeda136788a9149bb6365962ecfd68e93eea208ce6c21acce44"
+    },
+    {
+      "path": "citations/conference_articles-17-competitive-state-anxiety-in.bib",
+      "bytes": 473,
+      "sha256": "fcc840defd98f65e78ebeff255185b2396b77df72596b3b2c18e73af09e99f25"
+    },
+    {
+      "path": "citations/conference_articles-17-competitive-state-anxiety-in.ris",
+      "bytes": 1996,
+      "sha256": "5427eea28f29f219c9f982d480320f8a7fa956108b6e61b4367d7fffb510d00a"
+    },
+    {
+      "path": "citations/conference_articles-18-towards-developing-a-mobile-.bib",
+      "bytes": 566,
+      "sha256": "ca47a58d3494eedd37a425d0ab897f5e34f8ba9fb21875801126c0777a0dac36"
+    },
+    {
+      "path": "citations/conference_articles-18-towards-developing-a-mobile-.ris",
+      "bytes": 1683,
+      "sha256": "5907832f28d6ad4d9be3263f5df77736e56f6762cd1611a1e6b7efa1237a36db"
+    },
+    {
+      "path": "citations/conference_articles-19-a-comprehensive-survey-on-de.bib",
+      "bytes": 438,
+      "sha256": "e5f5d785ee618e5c4f44ba7d9a07ff75a8f1ffadf42b3f20c7254c5349497949"
+    },
+    {
+      "path": "citations/conference_articles-19-a-comprehensive-survey-on-de.ris",
+      "bytes": 2165,
+      "sha256": "19ed1bf741186bb9cac0242486658dd00aba13abc8cf69fdceb8ce2e7053438b"
+    },
+    {
+      "path": "citations/conference_articles-2-ddream-a-smartphone-based-co.bib",
+      "bytes": 560,
+      "sha256": "f86bdd35bca6ca6fbd994b287f272be8cdd2067ce7403fd8400a379880b366cd"
+    },
+    {
+      "path": "citations/conference_articles-2-ddream-a-smartphone-based-co.ris",
+      "bytes": 2229,
+      "sha256": "eb430e7e51665a57835a4373fb460eb221780ef2bd01063abfdb537a6217964a"
+    },
+    {
+      "path": "citations/conference_articles-20-a-comprehensive-study-for-pr.bib",
+      "bytes": 499,
+      "sha256": "88b738db367ceb93c3d3cdc91d61a9d479ef156d6ae05d2a6cd144c33e463639"
+    },
+    {
+      "path": "citations/conference_articles-20-a-comprehensive-study-for-pr.ris",
+      "bytes": 2432,
+      "sha256": "f45121227592c9af687ff2d8d9b812336fc30de19e311f4e13f76000acd2c6f0"
+    },
+    {
+      "path": "citations/conference_articles-21-a-survey-of-conversational-a.bib",
+      "bytes": 564,
+      "sha256": "5ed58e43cd6c6c5cf2943f6c3d9912ed96c6f545fd26804fc37bc9660851c735"
+    },
+    {
+      "path": "citations/conference_articles-21-a-survey-of-conversational-a.ris",
+      "bytes": 1320,
+      "sha256": "8e6a45e5a9cb95e3d4e9b60596009b5ffecc865896d86b65d3e5ca3d61515c16"
+    },
+    {
+      "path": "citations/conference_articles-22-predicting-and-classifying-h.bib",
+      "bytes": 613,
+      "sha256": "364dc8a2a785289432cf41cb00b58da32352ae0442e38f7b8603baf40f3a39ef"
+    },
+    {
+      "path": "citations/conference_articles-22-predicting-and-classifying-h.ris",
+      "bytes": 1877,
+      "sha256": "aa7c3675fc3af035bfcc5e09b6445cc0c73978ae8758ade9ce74110c1971365c"
+    },
+    {
+      "path": "citations/conference_articles-23-umls-based-approach-for-deve.bib",
+      "bytes": 507,
+      "sha256": "2d4c61405324b51fd6cbd07c56ecf18d066b8f0a05638251fb5ef608b850d953"
+    },
+    {
+      "path": "citations/conference_articles-23-umls-based-approach-for-deve.ris",
+      "bytes": 1606,
+      "sha256": "7317c89dd2fb1491ba33c9e267f5b18a5f8e693a10b71a9b2ea25424a4168d2b"
+    },
+    {
+      "path": "citations/conference_articles-24-potato-net-classifying-potat.bib",
+      "bytes": 495,
+      "sha256": "a0bb63849a944ae52aefd265dd4aed6a0542e2d9e7a90e646b59a65a8ffed031"
+    },
+    {
+      "path": "citations/conference_articles-24-potato-net-classifying-potat.ris",
+      "bytes": 2038,
+      "sha256": "8280567bfebc93a65e40214cc88c7813cbd543dd8e3e5d52a725f1d5ae214c61"
+    },
+    {
+      "path": "citations/conference_articles-25-a-mobile-health-mhealth-tech.bib",
+      "bytes": 713,
+      "sha256": "70e2275ccd70c86b6bda3e41f98ef0ee23998f56e7ebc6644f5393fdb0403e34"
+    },
+    {
+      "path": "citations/conference_articles-25-a-mobile-health-mhealth-tech.ris",
+      "bytes": 2356,
+      "sha256": "c312c65ee5a53d2f5c19e892fbedaae667438167d3a9fda31a7a51884b31e935"
+    },
+    {
+      "path": "citations/conference_articles-26-classifying-gender-based-on-.bib",
+      "bytes": 558,
+      "sha256": "49057e325aeb457a96c8b2e3eb6a1f4c914437c0ac60fecbcf89590e455a3d35"
+    },
+    {
+      "path": "citations/conference_articles-26-classifying-gender-based-on-.ris",
+      "bytes": 2086,
+      "sha256": "e7467b498f9dcffb1b27ca1f863d403d80817465db177f56344f9667a559d581"
+    },
+    {
+      "path": "citations/conference_articles-27-a-stupendous-statistics-on-t.bib",
+      "bytes": 482,
+      "sha256": "c7c43fef2c484c44266feb4fc1463edf2655d30e790c508f52458145a8b0c7db"
+    },
+    {
+      "path": "citations/conference_articles-27-a-stupendous-statistics-on-t.ris",
+      "bytes": 2258,
+      "sha256": "4212dca0a259c0b3f4e61faf820b6081a3373d1f41849b2c5b98cffca83e25ec"
+    },
+    {
+      "path": "citations/conference_articles-28-towards-developing-a-voice-a.bib",
+      "bytes": 577,
+      "sha256": "7e3beea5d0e73efcdabd16b4aa59ee082c416f3091d6f114f511516774da1f09"
+    },
+    {
+      "path": "citations/conference_articles-28-towards-developing-a-voice-a.ris",
+      "bytes": 2376,
+      "sha256": "c5e931f2acbfb767fc45e99d8ad4de459ace7eb56742cc560a90b500263197a5"
+    },
+    {
+      "path": "citations/conference_articles-29-towards-a-survey-on-universa.bib",
+      "bytes": 676,
+      "sha256": "90d9b9bb0f9364c81c09487ffa98d3a7005029643654a5de83a4962870cd334a"
+    },
+    {
+      "path": "citations/conference_articles-29-towards-a-survey-on-universa.ris",
+      "bytes": 2322,
+      "sha256": "2ba46d5d3e729f5d26d2df4abb823bfbb7f2bb1aefbe5b3267a012c59e8eae7d"
+    },
+    {
+      "path": "citations/conference_articles-3-a-survey-on-non-invasive-com.bib",
+      "bytes": 519,
+      "sha256": "1f842bef361fd1a64d5024b8b35fe21d67fa573b6d0ef47f10f0a922c7b64d58"
+    },
+    {
+      "path": "citations/conference_articles-3-a-survey-on-non-invasive-com.ris",
+      "bytes": 2103,
+      "sha256": "5c53fc10d621f5559596bacd619b0befb0725ff2b5eb2039633208fdeed49b9b"
+    },
+    {
+      "path": "citations/conference_articles-30-mpreda-a-machine-learning-ba.bib",
+      "bytes": 630,
+      "sha256": "808783c0466a4b47ea796866f4d3a2ae82fcc6dacd040690115c2e9bfa5db2d5"
+    },
+    {
+      "path": "citations/conference_articles-30-mpreda-a-machine-learning-ba.ris",
+      "bytes": 2410,
+      "sha256": "5f947d4a11b9d8ce85d510be95d0283d4375022ebc22be4d7e09525aa033bf51"
+    },
+    {
+      "path": "citations/conference_articles-31-towards-developing-an-emr-in.bib",
+      "bytes": 619,
+      "sha256": "a74f4a12afedf54ae3517a1d181ec36ae8f03ea24ac5d1c7fc43e61d0dfafa20"
+    },
+    {
+      "path": "citations/conference_articles-31-towards-developing-an-emr-in.ris",
+      "bytes": 2257,
+      "sha256": "7793e0e2aa2382ae3b975e840f811473c078ca988ee6cf31fa71fb3796345342"
+    },
+    {
+      "path": "citations/conference_articles-32-an-automated-approach-for-ba.bib",
+      "bytes": 537,
+      "sha256": "57a548c3ec9af4f3816f9ec20b3205cfff34f16e43d779040edebcfbc07ef6ca"
+    },
+    {
+      "path": "citations/conference_articles-32-an-automated-approach-for-ba.ris",
+      "bytes": 1933,
+      "sha256": "7eb5342b224fa92b309a65c0efad530d7d4b27f2fa3a87029eb18a25edf7558b"
+    },
+    {
+      "path": "citations/conference_articles-33-skin-disease-recognition-a-m.bib",
+      "bytes": 526,
+      "sha256": "d54058259b8c22ea6fbd5e5cfe370fbecbd7f2dfde25fda5ee1f218db0dde6c9"
+    },
+    {
+      "path": "citations/conference_articles-33-skin-disease-recognition-a-m.ris",
+      "bytes": 1739,
+      "sha256": "2c445d08baca94531417ccbcda85b4ddf67c72ce0f4e4e2e85496869fe856a4a"
+    },
+    {
+      "path": "citations/conference_articles-34-pr-seo-an-innovative-approac.bib",
+      "bytes": 476,
+      "sha256": "f209e7cac82bf79a06ebd7fd4468d0ba2be2b0ee10b3ef3084306b19181717bd"
+    },
+    {
+      "path": "citations/conference_articles-34-pr-seo-an-innovative-approac.ris",
+      "bytes": 1783,
+      "sha256": "bb2dfb956e7b20ddff52363684031dcd567bf6880d0b8eacbcbd6c788c9cddc3"
+    },
+    {
+      "path": "citations/conference_articles-35-sot-an-application-based-res.bib",
+      "bytes": 477,
+      "sha256": "5dfc18c075ff7941f12a60c0f38d24ba6ac2575099c60cb78e46176c5c45a275"
+    },
+    {
+      "path": "citations/conference_articles-35-sot-an-application-based-res.ris",
+      "bytes": 1650,
+      "sha256": "a827f0fc37c4ba8614e3bd87530931a9fe203bca273494e883a9a74fd4cd3672"
+    },
+    {
+      "path": "citations/conference_articles-36-towards-developing-a-mobile-.bib",
+      "bytes": 718,
+      "sha256": "0a96b062745f513d323e361b96b9d26a70456ee316c02976fbfde1f2af710afd"
+    },
+    {
+      "path": "citations/conference_articles-36-towards-developing-a-mobile-.ris",
+      "bytes": 2263,
+      "sha256": "681637a8c62671e6dae3572adbaeb539277e5dfaeeead1e9cf08bc882fd0da67"
+    },
+    {
+      "path": "citations/conference_articles-37-effects-of-social-media-use-.bib",
+      "bytes": 553,
+      "sha256": "23750a9947f5d20cc6cd9d3393af3a917185fd602cf8851ff94f07dc41eb1f12"
+    },
+    {
+      "path": "citations/conference_articles-37-effects-of-social-media-use-.ris",
+      "bytes": 2629,
+      "sha256": "081bef60ec746f446f79f8334b9c93f17b252dbe4fbf5685444e7545f1170ddc"
+    },
+    {
+      "path": "citations/conference_articles-38-rbs-a-new-comparative-and-be.bib",
+      "bytes": 470,
+      "sha256": "46d641a6f0d8712c2a75bc78d9ec72e23806a081d034b829513a13d83cc03397"
+    },
+    {
+      "path": "citations/conference_articles-38-rbs-a-new-comparative-and-be.ris",
+      "bytes": 2066,
+      "sha256": "5d4760213f4a26851ffcbe768d5e81d2eb4afeb694a0cee511b534eee75bee68"
+    },
+    {
+      "path": "citations/conference_articles-39-a-survey-on-realsense-in-con.bib",
+      "bytes": 473,
+      "sha256": "46f2b69f44ed60c7ac4d655285243b086e729afe743c3ea8468bc6535e15a905"
+    },
+    {
+      "path": "citations/conference_articles-39-a-survey-on-realsense-in-con.ris",
+      "bytes": 2042,
+      "sha256": "5a65bfbabfdee503558c525a7b9e9a86ef7c2123e77a3a854a913d43482ba171"
+    },
+    {
+      "path": "citations/conference_articles-4-fedhemo-a-federated-ctab-gan.bib",
+      "bytes": 600,
+      "sha256": "8b3d7adc5fd4c66a5206f182e217897da586e0a8e30a8b7a3642b7bd451fa02d"
+    },
+    {
+      "path": "citations/conference_articles-4-fedhemo-a-federated-ctab-gan.ris",
+      "bytes": 2820,
+      "sha256": "d9910fc1077268df6d6e4cc34533a7f85138379c60c744f315b3354d80858fac"
+    },
+    {
+      "path": "citations/conference_articles-40-a-proposed-continuous-auditi.bib",
+      "bytes": 408,
+      "sha256": "063c022332eadff65ed63c378bac9b07cbfb555c7ba1ede172835a0b00d29198"
+    },
+    {
+      "path": "citations/conference_articles-40-a-proposed-continuous-auditi.ris",
+      "bytes": 2068,
+      "sha256": "60b3c153c05cccd64dc507a913ce25e0ba98fb537f890c6e2ff83447a880db39"
+    },
+    {
+      "path": "citations/conference_articles-41-an-approach-to-study-on-ma-e.bib",
+      "bytes": 590,
+      "sha256": "3a24c2268a8f6b001b46fa13f332cda8b3de77ed34d268b2322f6bd8b19c0cc5"
+    },
+    {
+      "path": "citations/conference_articles-41-an-approach-to-study-on-ma-e.ris",
+      "bytes": 1884,
+      "sha256": "a48a46b66f5032e550fdecae34ff2c6046cb1f7b1d4e26345d6405b7f3a81278"
+    },
+    {
+      "path": "citations/conference_articles-42-an-approach-to-study-on-time.bib",
+      "bytes": 552,
+      "sha256": "a40b0dbd79b1cc96f35205194e84b030fdbaa7006c3f74ac64bc9884fa19cb9c"
+    },
+    {
+      "path": "citations/conference_articles-42-an-approach-to-study-on-time.ris",
+      "bytes": 2045,
+      "sha256": "1036f1365c9332f215f71ec24bb3e8470e6f1c758a8b0ef76bd4b3b1931b43ed"
+    },
+    {
+      "path": "citations/conference_articles-43-an-innovative-data-mining-ap.bib",
+      "bytes": 510,
+      "sha256": "f5cd6c526e7e7db99be2806ff285f427ff3efe1caf4d350055f7ce39b56dbcd1"
+    },
+    {
+      "path": "citations/conference_articles-43-an-innovative-data-mining-ap.ris",
+      "bytes": 2113,
+      "sha256": "4db76f39aa1914f7a15f687bf972fdd564b0a8c27da3d97824e95b9e3f4b480a"
+    },
+    {
+      "path": "citations/conference_articles-44-a-new-stroke-matching-based-.bib",
+      "bytes": 473,
+      "sha256": "777ab3c0342f3cf5823dc85965891080b23c6213927d196384dcfa70b4873d1b"
+    },
+    {
+      "path": "citations/conference_articles-44-a-new-stroke-matching-based-.ris",
+      "bytes": 1917,
+      "sha256": "29e533f9fa1711295a72d7fa5cb94c32df45b8bb9b51c821df0ef660ec341a1f"
+    },
+    {
+      "path": "citations/conference_articles-45-a-new-verb-based-approach-fo.bib",
+      "bytes": 427,
+      "sha256": "2a0b91eaef5b1a0e8774ad0e0ea4ec0f1fdb44c67bc50be663b5d961d59d6fd7"
+    },
+    {
+      "path": "citations/conference_articles-45-a-new-verb-based-approach-fo.ris",
+      "bytes": 2100,
+      "sha256": "969619bf450b4eee7164d32caa38509ecf1a4cc455633c7c2adca1f905c71e65"
+    },
+    {
+      "path": "citations/conference_articles-5-performance-comparison-of-qu.bib",
+      "bytes": 520,
+      "sha256": "dbba1864c5c6b3e4e935f6bdfd95d25fa544e50578ec95c8ffea92fa2109f0b2"
+    },
+    {
+      "path": "citations/conference_articles-5-performance-comparison-of-qu.ris",
+      "bytes": 2322,
+      "sha256": "1a779d2c3ad329d4e4d0968b68c7941dab17486d10c9aa94adf9113e955006ab"
+    },
+    {
+      "path": "citations/conference_articles-6-digital-health-using-data-sc.bib",
+      "bytes": 473,
+      "sha256": "fb1c530ec628baf29a570cb6c4aa71fb1ef52dd5a854924b33c9e86723fcd808"
+    },
+    {
+      "path": "citations/conference_articles-6-digital-health-using-data-sc.ris",
+      "bytes": 1579,
+      "sha256": "b176679b7d085152d1b590b4ac99c2ac05ab4b4547562c4bec0d3f8a753108fe"
+    },
+    {
+      "path": "citations/conference_articles-7-voice-activated-self-monitor.bib",
+      "bytes": 652,
+      "sha256": "0daf873737c439dfb19b329cc9747812d367a592f3a6ab5d248ef0966e11846e"
+    },
+    {
+      "path": "citations/conference_articles-7-voice-activated-self-monitor.ris",
+      "bytes": 1815,
+      "sha256": "43d15c1509ae661e3fea13f17271e6b25c8edcc0b51e6d7aeb98b4349ac3ab2c"
+    },
+    {
+      "path": "citations/conference_articles-8-mcare-integrating-mobile-pho.bib",
+      "bytes": 766,
+      "sha256": "8219d2eeb3d23dcfd6f64299a1a46839ace54eaa4ca8bc9de81f0479df9d3474"
+    },
+    {
+      "path": "citations/conference_articles-8-mcare-integrating-mobile-pho.ris",
+      "bytes": 2010,
+      "sha256": "dca454bd19efd67b15402e129395a277a2467187fdba92f94a0e7815feb764de"
+    },
+    {
+      "path": "citations/conference_articles-9-listening-to-the-brain-a-nov.bib",
+      "bytes": 640,
+      "sha256": "4b043fe5b4c245a43c6a0a022ab81bad1bd6dddf7737defc705084d1061bd5ef"
+    },
+    {
+      "path": "citations/conference_articles-9-listening-to-the-brain-a-nov.ris",
+      "bytes": 2480,
+      "sha256": "1e5a3c65188ac759331f8938211911bb9ec5b17110d869a6951dd851813b1a29"
+    },
+    {
+      "path": "citations/journal_articles-1-eeg-based-real-time-classifi.bib",
+      "bytes": 530,
+      "sha256": "48b5d65745cce0e3cdd68ebd76fa3e990cedb57211b04e41c600e09d09b33725"
+    },
+    {
+      "path": "citations/journal_articles-1-eeg-based-real-time-classifi.ris",
+      "bytes": 2335,
+      "sha256": "2c8a2649380bc3dfaacd8ff1cead993c287fd9552392e42a6013534f6a841dab"
+    },
+    {
+      "path": "citations/journal_articles-10-a-data-driven-validation-of-.bib",
+      "bytes": 561,
+      "sha256": "fde62116faf8c0336760522372def7bcc73a1b3ff51595fe780905be01110d22"
+    },
+    {
+      "path": "citations/journal_articles-10-a-data-driven-validation-of-.ris",
+      "bytes": 2021,
+      "sha256": "326d6d9d801f304be8487706e802d7f160ee3dd75bbae489de1cf9a8b26ca30f"
+    },
+    {
+      "path": "citations/journal_articles-11-an-mcare-study-on-patterns-o.bib",
+      "bytes": 562,
+      "sha256": "3262c9272783f75145e93eeaab2a388b51d0d08c089f8372ce415f45e26b5ff4"
+    },
+    {
+      "path": "citations/journal_articles-11-an-mcare-study-on-patterns-o.ris",
+      "bytes": 2531,
+      "sha256": "4c55e81d8f8542a3c8a8b92e66aa9bb9c69b4a7325386cc9ea63855eb1070e0f"
+    },
+    {
+      "path": "citations/journal_articles-12-informing-developmental-mile.bib",
+      "bytes": 576,
+      "sha256": "321394c0ac0745897011b7247518d26667025a6b49f40d521b9ed01d750a8874"
+    },
+    {
+      "path": "citations/journal_articles-12-informing-developmental-mile.ris",
+      "bytes": 4578,
+      "sha256": "c77fb04ec262b3d65f490cb45d07daf7ea9c2a4875c0dd2704909b777d52f887"
+    },
+    {
+      "path": "citations/journal_articles-13-grant-report-on-mcare-mobile.bib",
+      "bytes": 683,
+      "sha256": "21a960e47fc4446f448980c01904c56c38814a0d47fd835141bf028fabaf3da2"
+    },
+    {
+      "path": "citations/journal_articles-13-grant-report-on-mcare-mobile.ris",
+      "bytes": 2358,
+      "sha256": "aba3a274ec9747a4cd17547ffde8c491be627f5c01c90ad25aed2e034e470bc7"
+    },
+    {
+      "path": "citations/journal_articles-14-pvbmt-a-principal-verb-based.bib",
+      "bytes": 485,
+      "sha256": "b39870ceabfe9a5861ce7210961bd1044d45174df8780fa5bd2ab7d9f616ab89"
+    },
+    {
+      "path": "citations/journal_articles-14-pvbmt-a-principal-verb-based.ris",
+      "bytes": 2104,
+      "sha256": "3da698b12b3a016ccd7cea414a42066a07b674234684780e6202e3aee4f65ecb"
+    },
+    {
+      "path": "citations/journal_articles-15-numerical-solution-of-mixed-.bib",
+      "bytes": 539,
+      "sha256": "f74d82b5a91624c570f1cb769bccc727f7b040b1a7c963bc006167c2b120e9e3"
+    },
+    {
+      "path": "citations/journal_articles-15-numerical-solution-of-mixed-.ris",
+      "bytes": 1849,
+      "sha256": "8933aeb4d683f15d72bb1d429172dde88d60b2159da9f57bd7bc070ba5f5d8b0"
+    },
+    {
+      "path": "citations/journal_articles-16-overall-workflow-deep-learning.bib",
+      "bytes": 537,
+      "sha256": "03b14670d6cec46f05edb01205048fe0aa78cce06491cdb03c6be7bdf0cfad1b"
+    },
+    {
+      "path": "citations/journal_articles-16-overall-workflow-deep-learning.ris",
+      "bytes": 2005,
+      "sha256": "f6515a6168bd744048736a098090b352774230b8098ad4b99cde298a609dd8d7"
+    },
+    {
+      "path": "citations/journal_articles-2-towards-a-non-invasive-mheal.bib",
+      "bytes": 385,
+      "sha256": "4ed18395aa9c4c7bc76259b78b7fb4b8ef4a4256f9d2ea08d89cf88d40b8a4fb"
+    },
+    {
+      "path": "citations/journal_articles-2-towards-a-non-invasive-mheal.ris",
+      "bytes": 869,
+      "sha256": "3e899a0c8871c91efa9bacaad18d70b514de7cd36f71349962eacfd2e42846d2"
+    },
+    {
+      "path": "citations/journal_articles-3-smartphone-based-non-invasiv.bib",
+      "bytes": 467,
+      "sha256": "415e85c6a2c4b4343b83a02117e58ae6885798131c41fad14c7614c107d9b341"
+    },
+    {
+      "path": "citations/journal_articles-3-smartphone-based-non-invasiv.ris",
+      "bytes": 1954,
+      "sha256": "bdd3a2fc6fff16ac8bef9f25a37568989e7740cd2032b68a35c45634855aa6af"
+    },
+    {
+      "path": "citations/journal_articles-4-noninvasive-estimation-of-bl.bib",
+      "bytes": 524,
+      "sha256": "3107d1be8c2dafdf1f63a368eda526226590f4e21cd230fe30d0d241cd70abad"
+    },
+    {
+      "path": "citations/journal_articles-4-noninvasive-estimation-of-bl.ris",
+      "bytes": 2579,
+      "sha256": "267ea35abe837a9aef5cec32b917d237629b29e8f1f8525ad8eda29df8c5b762"
+    },
+    {
+      "path": "citations/journal_articles-5-pulsesight-a-novel-method-fo.bib",
+      "bytes": 568,
+      "sha256": "303702ee478d0054e1c8730528ad362a3740093b72786f6f41e4d3f9b73e931d"
+    },
+    {
+      "path": "citations/journal_articles-5-pulsesight-a-novel-method-fo.ris",
+      "bytes": 2503,
+      "sha256": "aa38ce076afe44877f7c50c35fb5a3aacec7e0befb6fca2a98882f3c4835c14c"
+    },
+    {
+      "path": "citations/journal_articles-6-a-systematic-review-on-eye-a.bib",
+      "bytes": 559,
+      "sha256": "fba6e31a463d591c25937bc622d58739da17d7e12051b563f6a3b47f32ca47cb"
+    },
+    {
+      "path": "citations/journal_articles-6-a-systematic-review-on-eye-a.ris",
+      "bytes": 2538,
+      "sha256": "5352fe201ef79389a4805a04f8b11b2935b716e1c2d24ae655e4b220b35153a9"
+    },
+    {
+      "path": "citations/journal_articles-7-camera-agnostic-oct-generati.bib",
+      "bytes": 574,
+      "sha256": "69106c7164a68e9ee54d7fa97aed69f499a5ec074792bb26be75fbf85551654a"
+    },
+    {
+      "path": "citations/journal_articles-7-camera-agnostic-oct-generati.ris",
+      "bytes": 2997,
+      "sha256": "84662bc1130d0d239a2bfb8647e90e0c01880347743dfd529165c57f84f0b025"
+    },
+    {
+      "path": "citations/journal_articles-8-study-results-of-mcare-devel.bib",
+      "bytes": 790,
+      "sha256": "305726ab24c7128c535dc89628457ebd9a2d86e4506249e71b1efe8ccc1be575"
+    },
+    {
+      "path": "citations/journal_articles-8-study-results-of-mcare-devel.ris",
+      "bytes": 2508,
+      "sha256": "3050de88aae0a344ebbafc7c2f0409d58a0d3784448a11cf6d88dc2ba5c564f7"
+    },
+    {
+      "path": "citations/journal_articles-9-ubiheart-a-novel-approach-fo.bib",
+      "bytes": 463,
+      "sha256": "7aad0eb5517b891b87bf9d3b5b870ed8796c0cbfc8d786f8b033f22d6ccb96ee"
+    },
+    {
+      "path": "citations/journal_articles-9-ubiheart-a-novel-approach-fo.ris",
+      "bytes": 2120,
+      "sha256": "c16f417faae0ef512c3508c7f16b53b2de7f6dfa2331104615b6205c2d06b668"
+    },
+    {
+      "path": "citations/manuscripts-10-non-invasive-white-blood-cel.bib",
+      "bytes": 472,
+      "sha256": "144722f9de4b2581799910c1263044ceaa7ffe7d1e89e300bde59748e32b962c"
+    },
+    {
+      "path": "citations/manuscripts-10-non-invasive-white-blood-cel.ris",
+      "bytes": 2002,
+      "sha256": "fa44525a693f558b019ea6aa78eb024e0bac38d5fb92ba8dc7a8b6c95a61dbba"
+    },
+    {
+      "path": "citations/manuscripts-2-towards-developing-an-mhealt.bib",
+      "bytes": 519,
+      "sha256": "73f569c2021788c4f21bf2a29803ee99e3c39e919142508b6d2ec87a1748ac4d"
+    },
+    {
+      "path": "citations/manuscripts-2-towards-developing-an-mhealt.ris",
+      "bytes": 1860,
+      "sha256": "9a1b52b4d82f9f672da248e9d89e71873981e214c109733347c343dc849e83d8"
+    },
+    {
+      "path": "citations/manuscripts-8-a-multi-model-analysis-of-no.bib",
+      "bytes": 496,
+      "sha256": "7198d6b5989d6d127a864bbc91c00ff05a807ee6c3882e0915a5eae0fda5e66d"
+    },
+    {
+      "path": "citations/manuscripts-8-a-multi-model-analysis-of-no.ris",
+      "bytes": 2742,
+      "sha256": "afee9eda943ef1df88b79f08fc138246d64376f26fa4be5211fc463596de1464"
+    },
+    {
+      "path": "contact.rsc",
+      "bytes": 18494,
+      "sha256": "aa4c05b3e861fa6254adfcc8c29ff39338039bd38d0ee7d3ede4b06404257729"
+    },
+    {
+      "path": "contact/index.html",
+      "bytes": 36697,
+      "sha256": "2301f6e1ef5b0b9bbb6dd26eaf22632d5e5861d29e21cb32774b0838f8c17fc0"
+    },
+    {
+      "path": "cv.rsc",
+      "bytes": 24711,
+      "sha256": "2a8fbcd5b635801721c01bc561bb17fbb012ee2359c250edabbafda9a3d22ce8"
+    },
+    {
+      "path": "cv/index.html",
+      "bytes": 48862,
+      "sha256": "a8b18e4c25ddaa0bdb6dd3d193f9173e3bac3ad34c001c05df2a22346408a6f4"
+    },
+    {
+      "path": "downloads/Masud-Rabbani-Academic-CV.docx",
+      "bytes": 37797,
+      "sha256": "dc1d4c8b743d0bae3f9a5cd81d8349321d98cc43128206432f0abfa429d56f71"
+    },
+    {
+      "path": "downloads/Masud-Rabbani-Academic-CV.pdf",
+      "bytes": 41074,
+      "sha256": "aae66465e1f4649ad4e6ab95e1056f432d90ea502000b827d1ff50e0de3b82b3"
+    },
+    {
+      "path": "experience.rsc",
+      "bytes": 36212,
+      "sha256": "65754175895c7ddc35cf28b2c259e88e764c456ca8a240c74521a1395e2a85a2"
+    },
+    {
+      "path": "experience/index.html",
+      "bytes": 65816,
+      "sha256": "5871d35b7d9c481768df1948c12b3998a0d798fd0979049dd833b1a62c01c6b8"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 930,
+      "sha256": "c51a6e073dd2f11f5498396779373106850a4fc971a615298ecb533196780008"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 73263,
+      "sha256": "44b109542792f48997b0d1e6a1e43d48e1d3aef7bde36a388666a546144c4656"
+    },
+    {
+      "path": "index.rsc",
+      "bytes": 36563,
+      "sha256": "5dae1fcc8941dd454d2d05a1a3cc67e2a24326f9e314c66f32ffb83a46f76b97"
+    },
+    {
+      "path": "masud-rabbani.jpg",
+      "bytes": 57485,
+      "sha256": "a0dbfb309e741bf77e71f67aa9c7fa8ab5708d17e20529632cb177f8047ff400"
+    },
+    {
+      "path": "media/blog/275b2e5d-d8ab-499c-9057-a32f08367712.png",
+      "bytes": 236935,
+      "sha256": "a97cc126edf121773d2c3530c3d5f71d5b84e00d9307785362ed6d2fa1c9a50e"
+    },
+    {
+      "path": "media/blog/76a596e6-f08c-45ff-b9c5-5d6c3e0320d7.png",
+      "bytes": 69089,
+      "sha256": "82ea47eb14b6b76f95640378065609eff5b907bb7c4accc9a8fc9841fa367a57"
+    },
+    {
+      "path": "media/blog/9387206e-f356-40f4-aba2-4ad7750a385e.png",
+      "bytes": 80333,
+      "sha256": "26386903f2422d96706da0189092117e3abcdef12eb60538ffe700fc6942b2b8"
+    },
+    {
+      "path": "media/blog/944964d3-5976-4cdd-8fce-ae9c7103e1b0.png",
+      "bytes": 209055,
+      "sha256": "d12ebaea5d8c98be6b24c072540146f5b66dde346201583e779745919dd6b5c9"
+    },
+    {
+      "path": "media/genealogy/1.jpg",
+      "bytes": 34672,
+      "sha256": "556599d23478e783df431eec90ca3560d50092665d67f80fcb901a88cee5c5c3"
+    },
+    {
+      "path": "media/genealogy/2.gif",
+      "bytes": 48093,
+      "sha256": "9efc797cc3ab9d40be5b4c145564a5353bdeacad1fea81c18d983b561ae1bf82"
+    },
+    {
+      "path": "media/genealogy/3.png",
+      "bytes": 59977,
+      "sha256": "d938d25df8a6965bcff066a0c8f0422bc19676cc78fc47bd66d2b13d09609acb"
+    },
+    {
+      "path": "media/genealogy/4.jpg",
+      "bytes": 17328,
+      "sha256": "065a6593cd54d037379a75a4471cdf4ab3738dad8bfe378d53dd069b5f8ea189"
+    },
+    {
+      "path": "media/genealogy/5.jpg",
+      "bytes": 25241,
+      "sha256": "e2b0d7865d28a6a892d8145e2e420258dfe17aacec82e7859757514b51f77437"
+    },
+    {
+      "path": "media/genealogy/6.jpg",
+      "bytes": 67989,
+      "sha256": "fe3fda24f49e6672e2832bf7f1c44610f62fc93c6b700929df0972542746ab55"
+    },
+    {
+      "path": "media/genealogy/7.jpg",
+      "bytes": 6025,
+      "sha256": "d0dda4db69afa3b467319a3ca6992d7a791e4edab81a18a5480ac78b6a67c692"
+    },
+    {
+      "path": "media/genealogy/8.jpg",
+      "bytes": 10312,
+      "sha256": "47bf5a6f9e318b69266a26dd3e27f9a83f2e5fe902e2b7846151fdad87a72fb4"
+    },
+    {
+      "path": "news.rsc",
+      "bytes": 22237,
+      "sha256": "a5495a53f7b8a9777605777b1badfcb330ada2d45c66cedae14788d6c23e586d"
+    },
+    {
+      "path": "news/index.html",
+      "bytes": 45391,
+      "sha256": "be8d6e060dd707b52dd466cdb6063b3905d417e83ad204217df0a0d88f2ccf5e"
+    },
+    {
+      "path": "og-evergreen.png",
+      "bytes": 775324,
+      "sha256": "200fbef266fc311e7fa126ffec46863b78261d04e7148a631e8ef40833f161ef"
+    },
+    {
+      "path": "og.png",
+      "bytes": 843042,
+      "sha256": "3b82e05a2c344988f35f644c57db7997231633bd1decfb67cc9361c5d9d0bc89"
+    },
+    {
+      "path": "privacy.rsc",
+      "bytes": 19529,
+      "sha256": "066707d9a6f09fc8e195958ca0413e5b3fc814bb4c262e4ef591ee7b7aaad06f"
+    },
+    {
+      "path": "privacy/index.html",
+      "bytes": 39288,
+      "sha256": "7d9da835ca7850835dde76a54b0fe9fd589d8bc9956528ea6708d89742635c20"
+    },
+    {
+      "path": "projects.rsc",
+      "bytes": 20765,
+      "sha256": "89694db5ab8af9367d34f4cec609982931f73ee845c40c31160061a86e083cab"
+    },
+    {
+      "path": "projects/index.html",
+      "bytes": 40406,
+      "sha256": "22a32b9416d1ca143451f4be90e9088e21de6c01e696bc59cf4e1bc8624af36b"
+    },
+    {
+      "path": "publications.rsc",
+      "bytes": 274717,
+      "sha256": "3c80df0ca96b59c0d2f69b0fe4afdfa3a127749eabe0584c9423a7dab2ade349"
+    },
+    {
+      "path": "publications/book_chapters-1-quantum-computing-for-smart-.rsc",
+      "bytes": 31982,
+      "sha256": "65163fb16a179c48c3204eee469539ecd2d5cfc1103e2044bce645ba3384e139"
+    },
+    {
+      "path": "publications/book_chapters-1-quantum-computing-for-smart-/index.html",
+      "bytes": 66325,
+      "sha256": "5cc94f7f861a583dc504f8e0e820d5b88f05178d7ffaa2bfde32a3f7690ddb06"
+    },
+    {
+      "path": "publications/book_chapters-2-a-mobile-health-application-.rsc",
+      "bytes": 36844,
+      "sha256": "32a36c136b383c1669589cdb58358675b5028078a274c08956fb3cc0ce85446d"
+    },
+    {
+      "path": "publications/book_chapters-2-a-mobile-health-application-/index.html",
+      "bytes": 79298,
+      "sha256": "3cb5b794cf31d3f50160b88525dcb7ec98e4db61b18f69c67b27bb36620de005"
+    },
+    {
+      "path": "publications/book_chapters-3-a-handbook-of-c-programming-.rsc",
+      "bytes": 25304,
+      "sha256": "03c75b6deb1b34d77eb58f741db84081b2a5d1710d73c76493637b7079ccb00f"
+    },
+    {
+      "path": "publications/book_chapters-3-a-handbook-of-c-programming-/index.html",
+      "bytes": 50913,
+      "sha256": "1cdf2c43f2f493e776cedf5f9bb715712ecfa0bded85682232cdae758bcf4ca3"
+    },
+    {
+      "path": "publications/conference_articles-1-agentic-ai-for-eeg-based-bra.rsc",
+      "bytes": 34892,
+      "sha256": "956bc446020689a0397c4a7e14b8d08e849953a51763f5eda72d6428db2791b9"
+    },
+    {
+      "path": "publications/conference_articles-1-agentic-ai-for-eeg-based-bra/index.html",
+      "bytes": 73272,
+      "sha256": "8091dd86dd287aae2548f2f7f4e1bba5a0810808347587472dbb369c1090935b"
+    },
+    {
+      "path": "publications/conference_articles-10-towards-a-multi-model-compar.rsc",
+      "bytes": 33368,
+      "sha256": "dc609809f62f2b8eab1636dff22dfc95ae81d3d572864dc083a0429c7b25db5d"
+    },
+    {
+      "path": "publications/conference_articles-10-towards-a-multi-model-compar/index.html",
+      "bytes": 69283,
+      "sha256": "01d280c8910aba05ba67aa4dd0f03c3027d17c2cb97c8e56e472f38b67f928cc"
+    },
+    {
+      "path": "publications/conference_articles-11-a-comparative-study-of-class.rsc",
+      "bytes": 35604,
+      "sha256": "984e0e812f1a6aa9c9209de400bf9c8543797b25968329df00ae07b33befd800"
+    },
+    {
+      "path": "publications/conference_articles-11-a-comparative-study-of-class/index.html",
+      "bytes": 75010,
+      "sha256": "680fceb9bc13417589def1864834d45f74d5dd81ed075404c2c8ff729b216c18"
+    },
+    {
+      "path": "publications/conference_articles-12-natural-language-processing-.rsc",
+      "bytes": 34598,
+      "sha256": "33646ff7dff200968706f7ff4920169df574bf7d631cec19286867b2c6f9376d"
+    },
+    {
+      "path": "publications/conference_articles-12-natural-language-processing-/index.html",
+      "bytes": 72387,
+      "sha256": "0f6aedb95670ed324cb5e98853ada887ec0b8a6ad35cad44e01e63d709ca6a28"
+    },
+    {
+      "path": "publications/conference_articles-13-cfscare-ml-based-activity-mo.rsc",
+      "bytes": 35159,
+      "sha256": "f2cbe3b6f5dcee5f4a40f1aeb62a2a1d1c11e499d19dd99c954e912187937dbb"
+    },
+    {
+      "path": "publications/conference_articles-13-cfscare-ml-based-activity-mo/index.html",
+      "bytes": 74407,
+      "sha256": "ea5cea22981bb44fac24392208e22910bf2942d022775058a0f7700154a43be8"
+    },
+    {
+      "path": "publications/conference_articles-14-identifying-medical-concepts.rsc",
+      "bytes": 35399,
+      "sha256": "efef2bf7a9ecf2c17362715e8de74d5e1e1900392f40f0bff31c6f933bec10d0"
+    },
+    {
+      "path": "publications/conference_articles-14-identifying-medical-concepts/index.html",
+      "bytes": 74040,
+      "sha256": "a0252ade77a86ee03e35707b8dc063bb99e415c6c23e8d617bd7ba706cc16ae3"
+    },
+    {
+      "path": "publications/conference_articles-15-ml-based-chronic-kidney-dise.rsc",
+      "bytes": 33783,
+      "sha256": "615c88c5e2590d1fe9282745591f01bafb7abc4febaff6e164912a73335d17d4"
+    },
+    {
+      "path": "publications/conference_articles-15-ml-based-chronic-kidney-dise/index.html",
+      "bytes": 71010,
+      "sha256": "054ccde267c98565e99d58c680a40aa9a80a2d7fb2282cf031d54cca7c353fd8"
+    },
+    {
+      "path": "publications/conference_articles-16-a-chaos-based-non-linear-ana.rsc",
+      "bytes": 38989,
+      "sha256": "cdcae8fff970620fe3ba58597df15e7d1fa14bc7f1cc005d01472613f164cff7"
+    },
+    {
+      "path": "publications/conference_articles-16-a-chaos-based-non-linear-ana/index.html",
+      "bytes": 84103,
+      "sha256": "97cd418a4bc36e27e0d223e69605e6d01a82d2df476e46031477ad6dc16eb1f7"
+    },
+    {
+      "path": "publications/conference_articles-17-competitive-state-anxiety-in.rsc",
+      "bytes": 31264,
+      "sha256": "4b5f4b2fc4dadc35931d079898130b0ee02da6174894bdb9eaf12476a833e07a"
+    },
+    {
+      "path": "publications/conference_articles-17-competitive-state-anxiety-in/index.html",
+      "bytes": 64510,
+      "sha256": "1357b263c9a8fba126e80049961b918c74880bb46d3971de9bec1b6966502faf"
+    },
+    {
+      "path": "publications/conference_articles-18-towards-developing-a-mobile-.rsc",
+      "bytes": 32127,
+      "sha256": "b398651869385c39844cb313a8869191fa8b982041f11a90545592018abc9ff6"
+    },
+    {
+      "path": "publications/conference_articles-18-towards-developing-a-mobile-/index.html",
+      "bytes": 66394,
+      "sha256": "c546e5b3bd50e9e8b4f91f7c6dcd39b44ad5f1e4f7fbc0583a081bfe12ead0a0"
+    },
+    {
+      "path": "publications/conference_articles-19-a-comprehensive-survey-on-de.rsc",
+      "bytes": 31784,
+      "sha256": "804f3c70b741efa716aaf516e3f3d95cb95298455c7a69a19fc93351dfbe5d6f"
+    },
+    {
+      "path": "publications/conference_articles-19-a-comprehensive-survey-on-de/index.html",
+      "bytes": 64989,
+      "sha256": "c5b63d8184098b04d265023e74b488911c0252c3e59af613152a2667afd5a621"
+    },
+    {
+      "path": "publications/conference_articles-2-ddream-a-smartphone-based-co.rsc",
+      "bytes": 33749,
+      "sha256": "f836e95d26908e678d2485247c0c5cac925a553024aac460e2e5549bee0f12e7"
+    },
+    {
+      "path": "publications/conference_articles-2-ddream-a-smartphone-based-co/index.html",
+      "bytes": 70451,
+      "sha256": "44a51d8ace47d3291470195e29472062b452a0ee71fe9ad25f7806f2432278e1"
+    },
+    {
+      "path": "publications/conference_articles-20-a-comprehensive-study-for-pr.rsc",
+      "bytes": 31995,
+      "sha256": "27ea198c2f26bc4f061b0441f76a113ea448ce73074cfd4e57634652bb7bcf1c"
+    },
+    {
+      "path": "publications/conference_articles-20-a-comprehensive-study-for-pr/index.html",
+      "bytes": 65975,
+      "sha256": "86b1693eaedd86cc37c0743137f3defeeb1f62edead852550261a38614365e95"
+    },
+    {
+      "path": "publications/conference_articles-21-a-survey-of-conversational-a.rsc",
+      "bytes": 33978,
+      "sha256": "f7e39cc75e2f6a46943b4a3fc31a0f2dd3fa2bd575cda3e790b4156af6fabef3"
+    },
+    {
+      "path": "publications/conference_articles-21-a-survey-of-conversational-a/index.html",
+      "bytes": 70665,
+      "sha256": "39f5bff2fc1726ec15cda243e20fb7a9c663e0c5cc067c3f5f974ed194ba4e2f"
+    },
+    {
+      "path": "publications/conference_articles-22-predicting-and-classifying-h.rsc",
+      "bytes": 36923,
+      "sha256": "2c347b5c41a9c4581d8206cd4342bad5409701bfbb45eeafd2f972b9ebef7ed0"
+    },
+    {
+      "path": "publications/conference_articles-22-predicting-and-classifying-h/index.html",
+      "bytes": 78825,
+      "sha256": "992d67cd2e12cdb64d97f451fe0cf8da8ec6039d819fd0c038bac452d0484f77"
+    },
+    {
+      "path": "publications/conference_articles-23-umls-based-approach-for-deve.rsc",
+      "bytes": 34421,
+      "sha256": "cce3ec3a7dee76a578aea49b4f5202913dec023897769ddf26427cc8b6c06f29"
+    },
+    {
+      "path": "publications/conference_articles-23-umls-based-approach-for-deve/index.html",
+      "bytes": 71140,
+      "sha256": "83091396be904aa8360b8426094f9eb314905d477bd1b0f0c308ce3fa54a98e4"
+    },
+    {
+      "path": "publications/conference_articles-24-potato-net-classifying-potat.rsc",
+      "bytes": 32317,
+      "sha256": "6d5026b5163ac5476ab96e808ebff799738583a6a4b340a2d992e663f3e48e68"
+    },
+    {
+      "path": "publications/conference_articles-24-potato-net-classifying-potat/index.html",
+      "bytes": 67984,
+      "sha256": "8f27a5f782e9785c56acc79195d63e71611786cc9d067fbea18ef5277c372038"
+    },
+    {
+      "path": "publications/conference_articles-25-a-mobile-health-mhealth-tech.rsc",
+      "bytes": 36635,
+      "sha256": "e3e3458e7c7f069153662a7a2dad8187622ddeae2480cdc65f81760fbd3ce71d"
+    },
+    {
+      "path": "publications/conference_articles-25-a-mobile-health-mhealth-tech/index.html",
+      "bytes": 78101,
+      "sha256": "f3e52a0b74977067486433da72beef77ae590bba104d4cf260b8ab6a4418f314"
+    },
+    {
+      "path": "publications/conference_articles-26-classifying-gender-based-on-.rsc",
+      "bytes": 33420,
+      "sha256": "5eb7051b1c616b9601018d0255871f3822aa76bdf335bf64901f904643aa037b"
+    },
+    {
+      "path": "publications/conference_articles-26-classifying-gender-based-on-/index.html",
+      "bytes": 69918,
+      "sha256": "6d9335021b951a4a5a3ea2f80535449db2498df5bf873e65e66ef6acc51c2083"
+    },
+    {
+      "path": "publications/conference_articles-27-a-stupendous-statistics-on-t.rsc",
+      "bytes": 33672,
+      "sha256": "0bde600227060c4610f315aacedd058898db8c9210a0478b5e2672b5c5edfa33"
+    },
+    {
+      "path": "publications/conference_articles-27-a-stupendous-statistics-on-t/index.html",
+      "bytes": 71148,
+      "sha256": "7a1582749c79acad5f55bfd0d023e23c9ff249ed00b3898d9af2fef2a31a8013"
+    },
+    {
+      "path": "publications/conference_articles-28-towards-developing-a-voice-a.rsc",
+      "bytes": 36101,
+      "sha256": "631ed65587609555a85a224b425b9f025c1b8dac3b38ed3ff63e0433ebf5cc9d"
+    },
+    {
+      "path": "publications/conference_articles-28-towards-developing-a-voice-a/index.html",
+      "bytes": 76288,
+      "sha256": "a11098633ec7b5b38d59f64566a27e3c2b18eb34a25f9ff83155e564c803e642"
+    },
+    {
+      "path": "publications/conference_articles-29-towards-a-survey-on-universa.rsc",
+      "bytes": 38658,
+      "sha256": "94b45f2ca5c89af8ed3571a695d423860a15d14461dce3c498c9059031c8f149"
+    },
+    {
+      "path": "publications/conference_articles-29-towards-a-survey-on-universa/index.html",
+      "bytes": 83050,
+      "sha256": "8f2a8e4c193120b3254285374aea0c663a3b89edc068ac5163c660b75065ca08"
+    },
+    {
+      "path": "publications/conference_articles-3-a-survey-on-non-invasive-com.rsc",
+      "bytes": 32080,
+      "sha256": "6da6bd4224c490111d20177d18e8c440baa65596e7e72ab10f7311966dacd7b2"
+    },
+    {
+      "path": "publications/conference_articles-3-a-survey-on-non-invasive-com/index.html",
+      "bytes": 65402,
+      "sha256": "71b1d6d9b0e2fd0d707acb78a24a7206ba7ffd80fe07c7e657ed2eca03c42b2a"
+    },
+    {
+      "path": "publications/conference_articles-30-mpreda-a-machine-learning-ba.rsc",
+      "bytes": 37597,
+      "sha256": "5aa6b280c044a393d5ce78d06f3b525a00af9f4e1b29d572ae38c1d2237724a4"
+    },
+    {
+      "path": "publications/conference_articles-30-mpreda-a-machine-learning-ba/index.html",
+      "bytes": 80200,
+      "sha256": "2c4233279426b8c7196be5cc06989660eb7e509ab0253138e126881cadd3d305"
+    },
+    {
+      "path": "publications/conference_articles-31-towards-developing-an-emr-in.rsc",
+      "bytes": 35250,
+      "sha256": "28e74f52dc602a9ed0333fc5d50748c52a30c569ececbc807fe4c78eab13ce52"
+    },
+    {
+      "path": "publications/conference_articles-31-towards-developing-an-emr-in/index.html",
+      "bytes": 74321,
+      "sha256": "67f1046a5988241197946aa136aae1f8f148fd7fed4728b7b702cddb72e54352"
+    },
+    {
+      "path": "publications/conference_articles-32-an-automated-approach-for-ba.rsc",
+      "bytes": 33544,
+      "sha256": "cce12285e575b9612f6e37e2c474c833d925a1ca381d11e3487d44d37306c7c7"
+    },
+    {
+      "path": "publications/conference_articles-32-an-automated-approach-for-ba/index.html",
+      "bytes": 69773,
+      "sha256": "9f93adff11bf2e4fb9150a7dd34ea4e62deb73699005b05b8ba3de9bcfd2e636"
+    },
+    {
+      "path": "publications/conference_articles-33-skin-disease-recognition-a-m.rsc",
+      "bytes": 31416,
+      "sha256": "36f0397c90a2bf0ac5fdf0710aed2df9b06ed342d1cc10ad3acdc61ebbf4da3b"
+    },
+    {
+      "path": "publications/conference_articles-33-skin-disease-recognition-a-m/index.html",
+      "bytes": 65692,
+      "sha256": "cd946ff36f76a224700b1714d12f26eeaa24513c4367ed82848bbccfe68f7268"
+    },
+    {
+      "path": "publications/conference_articles-34-pr-seo-an-innovative-approac.rsc",
+      "bytes": 29087,
+      "sha256": "e5cb1c65a119d7a7c6c157704aa785e4be25bb11206f2a5954a7f72b6d2a871d"
+    },
+    {
+      "path": "publications/conference_articles-34-pr-seo-an-innovative-approac/index.html",
+      "bytes": 60487,
+      "sha256": "3f79c193b7c95fad3f1ec37b705d4274aa2c5853013aca6b2dd03d871b73503b"
+    },
+    {
+      "path": "publications/conference_articles-35-sot-an-application-based-res.rsc",
+      "bytes": 31005,
+      "sha256": "d83405b101350822927dc045afecdbb4faad12601deee444f7d6d5ebee86b15c"
+    },
+    {
+      "path": "publications/conference_articles-35-sot-an-application-based-res/index.html",
+      "bytes": 63881,
+      "sha256": "2589ffa6f749a9fc40b4a33ede151dea9a3d78bd959c3c53cdf158e75ff5e9ae"
+    },
+    {
+      "path": "publications/conference_articles-36-towards-developing-a-mobile-.rsc",
+      "bytes": 38720,
+      "sha256": "d2fcbce26b3f96e9f0d3bc24bb3cc70994e44fe999b6be56313bb1f08da2384a"
+    },
+    {
+      "path": "publications/conference_articles-36-towards-developing-a-mobile-/index.html",
+      "bytes": 83256,
+      "sha256": "b977220a2482896db477a6ab6cf2d55d499d606705210bb97258a3e7362604a8"
+    },
+    {
+      "path": "publications/conference_articles-37-effects-of-social-media-use-.rsc",
+      "bytes": 33268,
+      "sha256": "d13754189e56b1cddd0673bca3aae4386d4bca8e99f0e603785756cdd32ee190"
+    },
+    {
+      "path": "publications/conference_articles-37-effects-of-social-media-use-/index.html",
+      "bytes": 70293,
+      "sha256": "945f1504a1124801f0299181621276da46d0c8a6511e33f80a7f0fe6dcad76cd"
+    },
+    {
+      "path": "publications/conference_articles-38-rbs-a-new-comparative-and-be.rsc",
+      "bytes": 29043,
+      "sha256": "fc8f11c58b20c20f8fc7bf43166a7eed6ea05ee1484b04027fb44387700a58cb"
+    },
+    {
+      "path": "publications/conference_articles-38-rbs-a-new-comparative-and-be/index.html",
+      "bytes": 59993,
+      "sha256": "ed560b6414928eaeafe704db8bf37447f123270be59ed19b4e8d843e9f65364e"
+    },
+    {
+      "path": "publications/conference_articles-39-a-survey-on-realsense-in-con.rsc",
+      "bytes": 30691,
+      "sha256": "66a4b8e477822158d78287075d78386c54822f8042e4b02e3ce75ecdef00735e"
+    },
+    {
+      "path": "publications/conference_articles-39-a-survey-on-realsense-in-con/index.html",
+      "bytes": 63586,
+      "sha256": "984ecf6906260c010a9fcce8aef39703fe2cde88aa99b91e79238beb27d35a2c"
+    },
+    {
+      "path": "publications/conference_articles-4-fedhemo-a-federated-ctab-gan.rsc",
+      "bytes": 36303,
+      "sha256": "705fbea588724f8cb5aeff95a4111c7e06aada8dc36dce7228dab5b9af670dbb"
+    },
+    {
+      "path": "publications/conference_articles-4-fedhemo-a-federated-ctab-gan/index.html",
+      "bytes": 75742,
+      "sha256": "483cc96e16941c6dc1c87ec1a50b0f1d9fb49fabbfb06f945d412e35175db534"
+    },
+    {
+      "path": "publications/conference_articles-40-a-proposed-continuous-auditi.rsc",
+      "bytes": 29047,
+      "sha256": "75be014393692d7bef4b1cfcb04e63819c32ba765e1622085d5abe64697697b7"
+    },
+    {
+      "path": "publications/conference_articles-40-a-proposed-continuous-auditi/index.html",
+      "bytes": 59430,
+      "sha256": "abfd3236170d58b31cbcbf05397dcf7c064e1bfff53d6e9e31d2a24f8a532ccc"
+    },
+    {
+      "path": "publications/conference_articles-41-an-approach-to-study-on-ma-e.rsc",
+      "bytes": 30317,
+      "sha256": "b5948888f078c7e684195f270a56ee3578bf320639a0c26e95fe2838cb7457e2"
+    },
+    {
+      "path": "publications/conference_articles-41-an-approach-to-study-on-ma-e/index.html",
+      "bytes": 61839,
+      "sha256": "64bf3a5a02b8796674bf504516fb201bec38bd4185c33f3a4ed2505445a11db3"
+    },
+    {
+      "path": "publications/conference_articles-42-an-approach-to-study-on-time.rsc",
+      "bytes": 30092,
+      "sha256": "c40892e3a388c4e3a0763130a8657f4268e0f7752f6699aeb97a36d3f7664158"
+    },
+    {
+      "path": "publications/conference_articles-42-an-approach-to-study-on-time/index.html",
+      "bytes": 61843,
+      "sha256": "49425544a46be1d4617bb0668c7070a1a970587b73f39aec14c8c2a0498203fe"
+    },
+    {
+      "path": "publications/conference_articles-43-an-innovative-data-mining-ap.rsc",
+      "bytes": 30182,
+      "sha256": "2908f68e2294e78ba0a11f6d49c255dfb20f5de02c69c8ddb14abb1c7ea03865"
+    },
+    {
+      "path": "publications/conference_articles-43-an-innovative-data-mining-ap/index.html",
+      "bytes": 62544,
+      "sha256": "50150c3bcebe82387376465d383bc347188100c1efe7f9567a18f2e937595764"
+    },
+    {
+      "path": "publications/conference_articles-44-a-new-stroke-matching-based-.rsc",
+      "bytes": 32349,
+      "sha256": "27d98c1669a5707b20c555e4a11e368fc926130c1ef9a433120f7c0a6a44237b"
+    },
+    {
+      "path": "publications/conference_articles-44-a-new-stroke-matching-based-/index.html",
+      "bytes": 66504,
+      "sha256": "277812dc784798455bdb1ed59d0209191a104fdecbd1956dbb26ea4b3fae2c99"
+    },
+    {
+      "path": "publications/conference_articles-45-a-new-verb-based-approach-fo.rsc",
+      "bytes": 31540,
+      "sha256": "f340c5cd4d0d4d4571ea7924ccd08a2689b765a47b0474f1ca030c347287029a"
+    },
+    {
+      "path": "publications/conference_articles-45-a-new-verb-based-approach-fo/index.html",
+      "bytes": 64554,
+      "sha256": "9a59028f45c8307528330fa5e4dbf6b46004637ea0c2865a9d1ed4981db95b28"
+    },
+    {
+      "path": "publications/conference_articles-5-performance-comparison-of-qu.rsc",
+      "bytes": 32632,
+      "sha256": "acba46a0928ab146e4afc5bf012d84c0e544632d8b62ee413523fded23d45c06"
+    },
+    {
+      "path": "publications/conference_articles-5-performance-comparison-of-qu/index.html",
+      "bytes": 67227,
+      "sha256": "2d5ff70160c4d964f11b76743dea77a02672e5ba2005124e38efd8b4e3b650c0"
+    },
+    {
+      "path": "publications/conference_articles-6-digital-health-using-data-sc.rsc",
+      "bytes": 30887,
+      "sha256": "82c82022380f1a865663a55cb5a899e5c8e7285c34219dea81040e245ecf00d9"
+    },
+    {
+      "path": "publications/conference_articles-6-digital-health-using-data-sc/index.html",
+      "bytes": 63257,
+      "sha256": "a4dd79b84e7c3cd5c8c5700fc2eafb564b8ea6be8bf889a9075573d8bd5e5eca"
+    },
+    {
+      "path": "publications/conference_articles-7-voice-activated-self-monitor.rsc",
+      "bytes": 37631,
+      "sha256": "ed5cab7dd66389c02bf955753c7d8408d988084a4369f6840b414dd0b363dafe"
+    },
+    {
+      "path": "publications/conference_articles-7-voice-activated-self-monitor/index.html",
+      "bytes": 80855,
+      "sha256": "8012056035eb7ed94a66cfe2cc9b14bb8da99e8122d032ad11e52812839c31fb"
+    },
+    {
+      "path": "publications/conference_articles-8-mcare-integrating-mobile-pho.rsc",
+      "bytes": 38592,
+      "sha256": "b45f2ac80a1d12fc04634fda5dd3f022be3f73cd9a99da7d404747ef48a975a8"
+    },
+    {
+      "path": "publications/conference_articles-8-mcare-integrating-mobile-pho/index.html",
+      "bytes": 83414,
+      "sha256": "05988f902277a4c1ee8413556372abceef9760dd2ad393972365428211eb8462"
+    },
+    {
+      "path": "publications/conference_articles-9-listening-to-the-brain-a-nov.rsc",
+      "bytes": 38266,
+      "sha256": "ff83f3b32483953fac3a4a4e8da7cb77ce886d951ab726905870e129a50d579b"
+    },
+    {
+      "path": "publications/conference_articles-9-listening-to-the-brain-a-nov/index.html",
+      "bytes": 81911,
+      "sha256": "c6162f204bbbf767f57b7fc31009514337f23dcbe4212d7d0acf8c659d5cf3fb"
+    },
+    {
+      "path": "publications/index.html",
+      "bytes": 558302,
+      "sha256": "c972e6568cc00c9ca0b44861a5c6c16be8e4c85362bfa29bd01490acf4bbe31b"
+    },
+    {
+      "path": "publications/journal_articles-1-eeg-based-real-time-classifi.rsc",
+      "bytes": 35532,
+      "sha256": "621159ccf00e75836667fc940e86d95f2d9ae75c38c53200eeafe4ee17bbf385"
+    },
+    {
+      "path": "publications/journal_articles-1-eeg-based-real-time-classifi/index.html",
+      "bytes": 74652,
+      "sha256": "8dc128cac09438e999fb813914b0b5b2bcdab3520435ee3a0547c36ef1719723"
+    },
+    {
+      "path": "publications/journal_articles-10-a-data-driven-validation-of-.rsc",
+      "bytes": 37059,
+      "sha256": "56c8bb743c771475c080791f6953ce1ef8ba2d0adb20baed78e8788956e2715e"
+    },
+    {
+      "path": "publications/journal_articles-10-a-data-driven-validation-of-/index.html",
+      "bytes": 78808,
+      "sha256": "b56b5558ddb46f1a02dfe13c2a48fc20096ae927ac2c81913d95c5f6c5cfe4fe"
+    },
+    {
+      "path": "publications/journal_articles-11-an-mcare-study-on-patterns-o.rsc",
+      "bytes": 37919,
+      "sha256": "a132fcb9bbef4c0d3e8f4de56e0d2537efe9986f929ff26771b6bec78562ce8a"
+    },
+    {
+      "path": "publications/journal_articles-11-an-mcare-study-on-patterns-o/index.html",
+      "bytes": 81265,
+      "sha256": "b2db5df8d9fbd4da31a4fe5b7c66b0d6e4ecbb980c2a768948631592bca6ef73"
+    },
+    {
+      "path": "publications/journal_articles-12-informing-developmental-mile.rsc",
+      "bytes": 42451,
+      "sha256": "5d8597ace53e75703edf294efcd2f10c65d70c0e25cf2404a534f71a253ceb13"
+    },
+    {
+      "path": "publications/journal_articles-12-informing-developmental-mile/index.html",
+      "bytes": 88247,
+      "sha256": "10185060705a75bb54183ae85b9d42144abc186a94d8b183acae2987bd898ceb"
+    },
+    {
+      "path": "publications/journal_articles-13-grant-report-on-mcare-mobile.rsc",
+      "bytes": 39869,
+      "sha256": "e9c8ecf9187f8ddd52cdc919444c861f686a35257382ee5f499d3b231fe9e50a"
+    },
+    {
+      "path": "publications/journal_articles-13-grant-report-on-mcare-mobile/index.html",
+      "bytes": 86137,
+      "sha256": "58841f08920e35230c48940ba88861f9fdb8b6c130c44cb2340ebe66e467fcf3"
+    },
+    {
+      "path": "publications/journal_articles-14-pvbmt-a-principal-verb-based.rsc",
+      "bytes": 32516,
+      "sha256": "15535cd0dea65999a9d1e97808425f2391fefe7ec030fb119a18e9ac9ef4784b"
+    },
+    {
+      "path": "publications/journal_articles-14-pvbmt-a-principal-verb-based/index.html",
+      "bytes": 67261,
+      "sha256": "e1b7c352fea5f7334a43a09f7d2fc8e5fc33896c754340382d854fa5b44cd159"
+    },
+    {
+      "path": "publications/journal_articles-15-numerical-solution-of-mixed-.rsc",
+      "bytes": 30263,
+      "sha256": "b85e8cdae699c11efd204c90cede28425e1d32773300d2f7b5991a24b43ce40d"
+    },
+    {
+      "path": "publications/journal_articles-15-numerical-solution-of-mixed-/index.html",
+      "bytes": 63427,
+      "sha256": "4e9ca07e4ea6b82d2c50912a03fb1aa1ce6e70aec2791bd6bb3ae3ac155305bf"
+    },
+    {
+      "path": "publications/journal_articles-16-overall-workflow-deep-learning.rsc",
+      "bytes": 32497,
+      "sha256": "c407ce6d4ea2b53592b553de8d3d59dc77e43c9b28051a446e4a37a932d759da"
+    },
+    {
+      "path": "publications/journal_articles-16-overall-workflow-deep-learning/index.html",
+      "bytes": 67209,
+      "sha256": "7c2a99b1b96b3b10b9b715687da68c8f120b5281b079438206271ec6f95d2a9e"
+    },
+    {
+      "path": "publications/journal_articles-2-towards-a-non-invasive-mheal.rsc",
+      "bytes": 28529,
+      "sha256": "c7e7ffe3411e2011518ce35d114eb7901ed8f73e04811068836e543644a767fa"
+    },
+    {
+      "path": "publications/journal_articles-2-towards-a-non-invasive-mheal/index.html",
+      "bytes": 58916,
+      "sha256": "6749f8d24c34f93e4a5b57f107e85dc8ef17226696ab89b91fa6d37ab95d996c"
+    },
+    {
+      "path": "publications/journal_articles-3-smartphone-based-non-invasiv.rsc",
+      "bytes": 31973,
+      "sha256": "fccdfef6353065132868d26fd2700bf2a51d828d21796818740c21fdff896d39"
+    },
+    {
+      "path": "publications/journal_articles-3-smartphone-based-non-invasiv/index.html",
+      "bytes": 65820,
+      "sha256": "51315c3cabd7d0d919657d9b2228f2fe222bb470f113be74e8d27310f6adc63f"
+    },
+    {
+      "path": "publications/journal_articles-4-noninvasive-estimation-of-bl.rsc",
+      "bytes": 35117,
+      "sha256": "76afb247a83748f22da64b253d3bb005198827b19c7ca79eb1fbc37a7a2884e2"
+    },
+    {
+      "path": "publications/journal_articles-4-noninvasive-estimation-of-bl/index.html",
+      "bytes": 73792,
+      "sha256": "d05701c1a9131d9df03d0ea16e0c07a7e518f13eea9c8ab1e8502ed94871e933"
+    },
+    {
+      "path": "publications/journal_articles-5-pulsesight-a-novel-method-fo.rsc",
+      "bytes": 35529,
+      "sha256": "77a50e72e1ce289af1fb5cc108100b50a2ad90310886119b0bbca5e5a4db8563"
+    },
+    {
+      "path": "publications/journal_articles-5-pulsesight-a-novel-method-fo/index.html",
+      "bytes": 74416,
+      "sha256": "3a4f3e1611bd45427a94c3de21240b91dbfe81d5a6fcc9e6dc6f3776e91a7848"
+    },
+    {
+      "path": "publications/journal_articles-6-a-systematic-review-on-eye-a.rsc",
+      "bytes": 37046,
+      "sha256": "4f797a9117fa6e06387f0a3746978696fdaa37bd0b8d8214823aa1af239fb464"
+    },
+    {
+      "path": "publications/journal_articles-6-a-systematic-review-on-eye-a/index.html",
+      "bytes": 79506,
+      "sha256": "47d86b9af7cad738a6ce5a7c5698f1733231614e7f3b27288759665213da3518"
+    },
+    {
+      "path": "publications/journal_articles-7-camera-agnostic-oct-generati.rsc",
+      "bytes": 35566,
+      "sha256": "a72bb9b1ab07b20a245357a123945b0dc3d8ba2b2c7f71874d7c0fcb8f5762df"
+    },
+    {
+      "path": "publications/journal_articles-7-camera-agnostic-oct-generati/index.html",
+      "bytes": 73195,
+      "sha256": "494055b378b226f8203d9b78b95e25eadb2605808b9610e7ec2cd75a8189aa69"
+    },
+    {
+      "path": "publications/journal_articles-8-study-results-of-mcare-devel.rsc",
+      "bytes": 40053,
+      "sha256": "a55a07e0b8d3580923b5c4059fdf17255926a07ffb61f25425993114d32b1b70"
+    },
+    {
+      "path": "publications/journal_articles-8-study-results-of-mcare-devel/index.html",
+      "bytes": 87332,
+      "sha256": "c2a240680b78453f2bb6ac72546724f68ebcbabe4e98d341b4197afc0fb80e0d"
+    },
+    {
+      "path": "publications/journal_articles-9-ubiheart-a-novel-approach-fo.rsc",
+      "bytes": 32866,
+      "sha256": "b6b8034c93b968ea8ca303ee2f13ba0be4d0abec4431ee9dfc5711ee6be9b640"
+    },
+    {
+      "path": "publications/journal_articles-9-ubiheart-a-novel-approach-fo/index.html",
+      "bytes": 67938,
+      "sha256": "7dead98989efedbe6b922674a6cb1720bf8e412297213e0e80022463082081fa"
+    },
+    {
+      "path": "publications/manuscripts-1-mvor-a-digital-health-soluti.rsc",
+      "bytes": 19361,
+      "sha256": "0dd901be13ebb8fc634976fbbdad149b7591d65169eae735aacfab770b459540"
+    },
+    {
+      "path": "publications/manuscripts-1-mvor-a-digital-health-soluti/index.html",
+      "bytes": 38204,
+      "sha256": "3ab3787f4c9e08f19abca4cdefb7a0c7c08fe9f4b3dfae87cf1e79eb029063c8"
+    },
+    {
+      "path": "publications/manuscripts-10-non-invasive-white-blood-cel.rsc",
+      "bytes": 31504,
+      "sha256": "e790acc194880ce22f80edaed2df4471bc524e2d5de8fa441bcae8d2c7b0d600"
+    },
+    {
+      "path": "publications/manuscripts-10-non-invasive-white-blood-cel/index.html",
+      "bytes": 65029,
+      "sha256": "c5ccf605b6d87fda5276c939104428e71bb12f9d700a20ce2a28350bb5f8c91f"
+    },
+    {
+      "path": "publications/manuscripts-2-towards-developing-an-mhealt.rsc",
+      "bytes": 33448,
+      "sha256": "269063d1dacd58d0438212a4199e6f9cbf0329e4f2d27d71ca2a1a4764563ed0"
+    },
+    {
+      "path": "publications/manuscripts-2-towards-developing-an-mhealt/index.html",
+      "bytes": 70224,
+      "sha256": "9afcc30eccfee4c8c09a5006f7686d914da81c71a97e17569ffd227d4a85239e"
+    },
+    {
+      "path": "publications/manuscripts-3-a-scoping-review-of-stress-i.rsc",
+      "bytes": 19781,
+      "sha256": "0955c165b93c954b5a4c7518108a4ad1ca314e858cb495f4c808d1a0627f13b0"
+    },
+    {
+      "path": "publications/manuscripts-3-a-scoping-review-of-stress-i/index.html",
+      "bytes": 39292,
+      "sha256": "5cf73bac50e979aa824919c681c4143a689c2a15dfff43fb4cda0fb45adcbd04"
+    },
+    {
+      "path": "publications/manuscripts-4-data-efficient-retinal-diagn.rsc",
+      "bytes": 19028,
+      "sha256": "4f87d4a3af850385085961d38958564cd7f436fc0abad87b151dd4362e12d6d1"
+    },
+    {
+      "path": "publications/manuscripts-4-data-efficient-retinal-diagn/index.html",
+      "bytes": 37691,
+      "sha256": "9ffa4918e4e49881582334a4c08c56e2212fbd9b1a3184876e52d5898cb14c4b"
+    },
+    {
+      "path": "publications/manuscripts-5-causality-driven-analysis-of.rsc",
+      "bytes": 18764,
+      "sha256": "e16cb41a8718ce5604233b8c1e283015e194c76e699ddc6e50706fc46208c1b1"
+    },
+    {
+      "path": "publications/manuscripts-5-causality-driven-analysis-of/index.html",
+      "bytes": 37239,
+      "sha256": "d52a82b7e09c98ba49e08b13d8977dd9492b04fe125d55c7305197d0ef730e07"
+    },
+    {
+      "path": "publications/manuscripts-6-ubifacetemp-towards-a-smartp.rsc",
+      "bytes": 19142,
+      "sha256": "757b2ca2579fadb0f322cfc82d9faee88ebb3fbad8ec1781051d43c1947c74f3"
+    },
+    {
+      "path": "publications/manuscripts-6-ubifacetemp-towards-a-smartp/index.html",
+      "bytes": 38139,
+      "sha256": "75fb91783b13b8bc1aeade4e3ba8a14f66c1fb8356fe5eafc042587c41de7bf7"
+    },
+    {
+      "path": "publications/manuscripts-7-deep-denoising-of-transcutan.rsc",
+      "bytes": 19063,
+      "sha256": "008701b986ea6a69aae354677005a724d6174cae15abb4c8c2628ab1e83f0909"
+    },
+    {
+      "path": "publications/manuscripts-7-deep-denoising-of-transcutan/index.html",
+      "bytes": 37981,
+      "sha256": "a5bb36ae6c175a7ca2d5202dff4d73da21b486453221d0c77e7ded237924ec61"
+    },
+    {
+      "path": "publications/manuscripts-8-a-multi-model-analysis-of-no.rsc",
+      "bytes": 34234,
+      "sha256": "62b5360fe254278c20109fd0c9bd664f1776cbafc7c8f05c22ed6ee04ed2472e"
+    },
+    {
+      "path": "publications/manuscripts-8-a-multi-model-analysis-of-no/index.html",
+      "bytes": 70723,
+      "sha256": "3ad3b7395590844b244f80bc61df8fb94186ac6708544439e5f05f0aa8b830e7"
+    },
+    {
+      "path": "publications/manuscripts-9-a-hipaa-compliant-digital-sy.rsc",
+      "bytes": 18998,
+      "sha256": "f748698ff6cac8814ae9cb379f2f454a45c81ff1c40b36c71b8ff808d50cd03a"
+    },
+    {
+      "path": "publications/manuscripts-9-a-hipaa-compliant-digital-sy/index.html",
+      "bytes": 37723,
+      "sha256": "b60a8c6b4975fc3d1191c43f50359bc791ffc7202b13e5f3419efa10b8b193c0"
+    },
+    {
+      "path": "publications/patents-1-gaze-stability-test-systems-.rsc",
+      "bytes": 24527,
+      "sha256": "a14bdaaf44d2a6304e5e4bb1f20bd983975dd173b4b1c4613a9f93f36b5b2c52"
+    },
+    {
+      "path": "publications/patents-1-gaze-stability-test-systems-/index.html",
+      "bytes": 48536,
+      "sha256": "74ab0f715c1f214f8b5aaaaf7fd6fe0e3bd0a4db85bc1b1b7edb32d9dd63abdb"
+    },
+    {
+      "path": "publications/patents-2-stroke-screening-systems-and.rsc",
+      "bytes": 17928,
+      "sha256": "8f4ab99b8b6cc89a4a899caf5630e0d4d3a24eb166d7a1e221161fa3248d3482"
+    },
+    {
+      "path": "publications/patents-2-stroke-screening-systems-and/index.html",
+      "bytes": 35039,
+      "sha256": "94ba87b7e587cceb458c2791c18cca6a0d25bbed404ea756e460976ddef722cc"
+    },
+    {
+      "path": "publications/posters-1-construct-validity-of-a-smar.rsc",
+      "bytes": 18837,
+      "sha256": "fb75e916531c3d63f715636490ae259a709ccc9bb161134dce55da5e514b113d"
+    },
+    {
+      "path": "publications/posters-1-construct-validity-of-a-smar/index.html",
+      "bytes": 37273,
+      "sha256": "b83f9c5d3bd9df0d91ed21f2f1a01874275c530520c334617902534a6096fc63"
+    },
+    {
+      "path": "publications/posters-10-rotier-j-zeeman-j-oh-h-masud.rsc",
+      "bytes": 19295,
+      "sha256": "1bb004080af9d318ecd447f448277103290a0d3350c59711e6747e40a81112a4"
+    },
+    {
+      "path": "publications/posters-10-rotier-j-zeeman-j-oh-h-masud/index.html",
+      "bytes": 38921,
+      "sha256": "bb97d149a0ddaaf9103456b94d8c641edb89927dfccf39cf3022772acdbbcd6e"
+    },
+    {
+      "path": "publications/posters-11-a-digital-platform-towards-v.rsc",
+      "bytes": 19227,
+      "sha256": "15a6da98e77e0f236ffee0c16197c3f2157619ccc2d41185c3e5d96ee8355020"
+    },
+    {
+      "path": "publications/posters-11-a-digital-platform-towards-v/index.html",
+      "bytes": 37849,
+      "sha256": "0ca91289da395a719512924a23a24293b826c00cb7ef48246e834fdc78c285bb"
+    },
+    {
+      "path": "publications/posters-12-braid-hlm-a-machine-learning.rsc",
+      "bytes": 19390,
+      "sha256": "19fe56f486aed6b50819cea093527658acfdf5f358fadab16178421efe81e9b2"
+    },
+    {
+      "path": "publications/posters-12-braid-hlm-a-machine-learning/index.html",
+      "bytes": 38336,
+      "sha256": "971f45280cdbf36c53801243b4aaa4b2de96ad68c33708f20ac3d9915d68cdd1"
+    },
+    {
+      "path": "publications/posters-13-a-novel-approach-for-underst.rsc",
+      "bytes": 19561,
+      "sha256": "46d660d1b478a0e756543c76995a93c9d5ec61ea555e10e733bf4a51f568c306"
+    },
+    {
+      "path": "publications/posters-13-a-novel-approach-for-underst/index.html",
+      "bytes": 38708,
+      "sha256": "f9bedfd0f13786d8dc37d9b1538ff58b578ddc60a645dff47dc1eaf4014d34d8"
+    },
+    {
+      "path": "publications/posters-14-maid-a-mobile-based-tools-fo.rsc",
+      "bytes": 19704,
+      "sha256": "aa62a06969987db0f88f47847b59bc000aa256e15c6d2d8f3a3963c8c861dd31"
+    },
+    {
+      "path": "publications/posters-14-maid-a-mobile-based-tools-fo/index.html",
+      "bytes": 38947,
+      "sha256": "0b66f4d21f98d8fe34085b8cf0635ab6e239641a73f429ccf0a25108387e895f"
+    },
+    {
+      "path": "publications/posters-15-mcare-a-mobile-based-care-fo.rsc",
+      "bytes": 18953,
+      "sha256": "40ce9808100e7f6d5e2b9e3f1e47aa34b3ee1380aec61cf865eab6bb681756ed"
+    },
+    {
+      "path": "publications/posters-15-mcare-a-mobile-based-care-fo/index.html",
+      "bytes": 37661,
+      "sha256": "3ffd78496e28105b35753ad18a0ab9320053c8afb23dd17dbdea71f29c823dc5"
+    },
+    {
+      "path": "publications/posters-2-importance-of-system-xc-medi.rsc",
+      "bytes": 19983,
+      "sha256": "222d2be19a3c2ab415cde510ac70e2acf1f3148bf9bfcd9b6678f8e884964f7e"
+    },
+    {
+      "path": "publications/posters-2-importance-of-system-xc-medi/index.html",
+      "bytes": 40157,
+      "sha256": "14bcb95b1ae4d3e64f126969ac84a7103e7d9663c273361eaf7c190543041937"
+    },
+    {
+      "path": "publications/posters-3-ubiwhite-smartphone-based-no.rsc",
+      "bytes": 19338,
+      "sha256": "228848fe52cedadb1d3ee6871275ab2f906e1d67d5306d47559871c205412aef"
+    },
+    {
+      "path": "publications/posters-3-ubiwhite-smartphone-based-no/index.html",
+      "bytes": 38346,
+      "sha256": "581cc06df702365b9c86ddd362aec77e24e26cbafbbfdd79c8608784d922de07"
+    },
+    {
+      "path": "publications/posters-4-functionality-of-voice-activ.rsc",
+      "bytes": 19075,
+      "sha256": "73c17d862a98098becdddb13a9e16f31a7af88f4ea1b3116269b7bda81aeba35"
+    },
+    {
+      "path": "publications/posters-4-functionality-of-voice-activ/index.html",
+      "bytes": 37442,
+      "sha256": "5b1f99c324aaf655926e22561859bc3676f8f6b19e083d093683630cb48c7207"
+    },
+    {
+      "path": "publications/posters-5-generative-ai-based-multi-mo.rsc",
+      "bytes": 19541,
+      "sha256": "b33a9d936a8f284074a49428ef37171494f902f7862403021f029a031ae4baf7"
+    },
+    {
+      "path": "publications/posters-5-generative-ai-based-multi-mo/index.html",
+      "bytes": 38513,
+      "sha256": "87b208d009736e3b956176c4779edafc8baf6ffc8516a0d24c8cab88b4ed3acb"
+    },
+    {
+      "path": "publications/posters-6-sakifa-aktar-masud-rabbani-m.rsc",
+      "bytes": 19979,
+      "sha256": "d8a49cb7b00267ce8ea2f187a6b3112eed6fc3440d08be1f03e3226b0bb9022d"
+    },
+    {
+      "path": "publications/posters-6-sakifa-aktar-masud-rabbani-m/index.html",
+      "bytes": 39937,
+      "sha256": "1f03931e198740d814c330fc8cd2d6abe1ce96be832e76e26e71cb6ac35dd9ff"
+    },
+    {
+      "path": "publications/posters-7-qretina-a-quantum-computing-.rsc",
+      "bytes": 19436,
+      "sha256": "45bec5b1c6d76291869729f555e2186e0f43b297fbba034bba2db4fbcfd1193a"
+    },
+    {
+      "path": "publications/posters-7-qretina-a-quantum-computing-/index.html",
+      "bytes": 38447,
+      "sha256": "d76f1f4fb28fd32a534023f0d1a1398809c8c5343c0665de5f920c6f1d52ba28"
+    },
+    {
+      "path": "publications/posters-8-quantum-machine-learning-in-.rsc",
+      "bytes": 19778,
+      "sha256": "70d2d716de84b4e04eeb9fc77716108903da828134eaa4442c9e54eeb2431c8b"
+    },
+    {
+      "path": "publications/posters-8-quantum-machine-learning-in-/index.html",
+      "bytes": 39247,
+      "sha256": "ec91f5898a1b30b293b6f000a9117d4e30d7c55866263e89c0766427b7c02d11"
+    },
+    {
+      "path": "publications/posters-9-smartad-association-of-retin.rsc",
+      "bytes": 19875,
+      "sha256": "8cdeaa7c335bed47b65cb3fd2d0b2d107de15ba26767c694aef7e857410d441d"
+    },
+    {
+      "path": "publications/posters-9-smartad-association-of-retin/index.html",
+      "bytes": 39457,
+      "sha256": "588fc881446d58e91146236e65839aa51f04f40f5253f9367c75d2cbbfb82ba3"
+    },
+    {
+      "path": "research.rsc",
+      "bytes": 26936,
+      "sha256": "b3d726af64b0ae0e1e02a28575058b7d1828f34f46a2ffb12bbe2413293ee1b0"
+    },
+    {
+      "path": "research/bangla-nlp-language-technologies.rsc",
+      "bytes": 41884,
+      "sha256": "340970bf535a4d48d73e698bd1f5ad1b320d8ab019090cff01bdad4dd72fdaa7"
+    },
+    {
+      "path": "research/bangla-nlp-language-technologies/index.html",
+      "bytes": 79593,
+      "sha256": "6f01d98cfc18143723dfd3f79784f0fbc3a6d8fb8b43c35fe6d1c0ae2c8931ca"
+    },
+    {
+      "path": "research/conversational-ai-chronic-care.rsc",
+      "bytes": 41507,
+      "sha256": "61466aed6dbc42fd594dc68d2fa590deb264992422314cf5cc020bc717f03678"
+    },
+    {
+      "path": "research/conversational-ai-chronic-care/index.html",
+      "bytes": 78781,
+      "sha256": "f82e9e479f894de8850c7e6f70d2f09ba8f5ba45be42c330fb6810ebc2e93541"
+    },
+    {
+      "path": "research/eeg-brain-computer-interfaces.rsc",
+      "bytes": 39992,
+      "sha256": "76ce74baae6020af1dd4f6383f5cb87df0b76fda2411de013c6446b4a303f3ff"
+    },
+    {
+      "path": "research/eeg-brain-computer-interfaces/index.html",
+      "bytes": 76543,
+      "sha256": "56dd51e6cdb2733cec162b3b0f4038dff9e425a25f77745caf61f2e261632a04"
+    },
+    {
+      "path": "research/index.html",
+      "bytes": 53748,
+      "sha256": "45de44a10359d3001d9068ef05a0120564c8d9db404046ed231ed8f261d72931"
+    },
+    {
+      "path": "research/mobile-health-ai.rsc",
+      "bytes": 55294,
+      "sha256": "2a85c651ba6bb8ea3a1153703a19fa7a14610eed6bf520a2aabe338d36edb3d3"
+    },
+    {
+      "path": "research/mobile-health-ai/index.html",
+      "bytes": 106197,
+      "sha256": "fd687c0352192b78ae24e5505bc5e35b31239d1d58c37535f994c6d4c6d5fdcd"
+    },
+    {
+      "path": "research/mobile-health-autism-care.rsc",
+      "bytes": 48411,
+      "sha256": "c31afbb3143581fad87a7ebca5b9f0fa2abba75926d9328274cac7b53cd0c175"
+    },
+    {
+      "path": "research/mobile-health-autism-care/index.html",
+      "bytes": 92402,
+      "sha256": "539f54809216af345a3d7167c8bd9e28be6432020325edcade94be855d8daf30"
+    },
+    {
+      "path": "research/non-invasive-health-sensing.rsc",
+      "bytes": 52535,
+      "sha256": "b196c94ba212e2d468fcf7244386864e5d4f4ca55184c709e306fb86df24b1be"
+    },
+    {
+      "path": "research/non-invasive-health-sensing/index.html",
+      "bytes": 100708,
+      "sha256": "59cb381b8cb85f7589fe34ce2907d965f97cd8ec3fa2634a4cef3bd3ccaa8047"
+    },
+    {
+      "path": "research/quantum-machine-learning-healthcare.rsc",
+      "bytes": 40916,
+      "sha256": "68fa0bf7edc3c9275c2e03e9527818269bb79a53db2d1d445bab5ffa8e125a65"
+    },
+    {
+      "path": "research/quantum-machine-learning-healthcare/index.html",
+      "bytes": 77614,
+      "sha256": "38d75af71b569292245227b5f16995ae465f8b54c6ecb519aa91cace91210b19"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "service.rsc",
+      "bytes": 44820,
+      "sha256": "a6a870c64a58cd5e17c1aaf03e9d2543b75ab54eab32167776f42fe98ad824d6"
+    },
+    {
+      "path": "service/index.html",
+      "bytes": 89716,
+      "sha256": "615a2e3767f130ad21dc22ef8833594e88b447fc8a815828e1e29bd219531c1f"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 16643,
+      "sha256": "d5fdb4a842e627cc4a2376f2d8695021d3bdf58c110a75723754ee8cc0f4633e"
+    },
+    {
+      "path": "vinext-client-entry-manifest.json",
+      "bytes": 79,
+      "sha256": "9478cef775d3786507e3556235f72c15ea5257f9527d31189b51d6fd4990bf26"
+    }
+  ]
+}
