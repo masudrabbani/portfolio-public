@@ -25,6 +25,9 @@ FORMAT = "portfolio-public-pages-v1"
 BASE_PATH = "/portfolio-public/"
 ORIGIN = "https://masudrabbani.github.io"
 LIVE_ORIGIN = "https://masudrabbani.com"
+OWNER_URL = "https://masud-rabbani-staging.masud-rabbani-bg.workers.dev/admin"
+PRODUCTION_ROBOTS = "User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api\nSitemap: https://masudrabbani.com/sitemap.xml\n"
+INDEXNOW_KEY = "178f6702794fd56ec0a71adaab9b6ec2c9d100f6d27b31e12d047d00678e86fc"
 MAX_ARCHIVE_BYTES = 32 * 1024 * 1024
 MAX_MANIFEST_BYTES = 2 * 1024 * 1024
 MAX_TOTAL_BYTES = 128 * 1024 * 1024
@@ -79,7 +82,19 @@ def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def checked_path(value: object) -> str:
+def legacy_alias_kind(path: str) -> str | None:
+    if path == "admin/index.html":
+        return "admin"
+    if re.fullmatch(r"api/cv/(?:pdf|docx)/index\.html", path):
+        return "cv"
+    if re.fullmatch(r"api/publications/[A-Za-z0-9_-]{1,180}/citation/index\.html", path):
+        return "citation"
+    if re.fullmatch(r"api/blog/media/[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}\.(?:png|jpg|webp)", path):
+        return "media"
+    return None
+
+
+def checked_path(value: object, production: bool = False) -> str:
     require(isinstance(value, str), "invalid-path")
     require(0 < len(value) <= 240 and value.isascii(), "invalid-path")
     require(not value.startswith("/") and not value.endswith("/"), "invalid-path")
@@ -89,7 +104,8 @@ def checked_path(value: object) -> str:
     if value == ".nojekyll":
         return value
     require(not any(part.startswith(".") for part in parts), "hidden-file")
-    require(not any(part.lower() in BLOCKED_SEGMENTS for part in parts), "private-path")
+    require(production and legacy_alias_kind(value) is not None
+            or not any(part.lower() in BLOCKED_SEGMENTS for part in parts), "private-path")
     require(parts[-1].lower() not in BLOCKED_FILENAMES, "private-file")
     require(Path(value).suffix.lower() in PUBLIC_EXTENSIONS, "unsupported-file-type")
     require(not re.search(r"(?:^|[._-])(?:backup|secret|credential|token|private)(?:[._-]|$)", parts[-1], re.I), "private-file")
@@ -115,8 +131,9 @@ def parse_manifest(data: bytes) -> dict[str, dict]:
     require(isinstance(manifest, dict) and set(manifest) == {
         "format", "basePath", "origin", "archiveSha256", "files"
     }, "manifest-fields")
-    require(manifest["format"] == FORMAT and manifest["basePath"] == BASE_PATH
-            and manifest["origin"] == ORIGIN, "manifest-target")
+    require(manifest["format"] == FORMAT and (manifest["basePath"], manifest["origin"]) in {
+        (BASE_PATH, ORIGIN), ("/", LIVE_ORIGIN)}, "manifest-target")
+    production = manifest["origin"] == LIVE_ORIGIN
     require(isinstance(manifest["archiveSha256"], str)
             and re.fullmatch(r"[a-f0-9]{64}", manifest["archiveSha256"]) is not None, "archive-digest")
     records = manifest["files"]
@@ -126,7 +143,7 @@ def parse_manifest(data: bytes) -> dict[str, dict]:
     total = 0
     for record in records:
         require(isinstance(record, dict) and set(record) == {"path", "bytes", "sha256"}, "file-fields")
-        path = checked_path(record["path"])
+        path = checked_path(record["path"], production)
         require(path.casefold() not in folded, "duplicate-path")
         require(type(record["bytes"]) is int and 0 <= record["bytes"] <= MAX_FILE_BYTES, "file-size")
         require(isinstance(record["sha256"], str)
@@ -170,15 +187,16 @@ class PageAudit(HTMLParser):
                 self.dependencies.append(candidate.strip().split(" ")[0])
 
 
-def audit_dependency(url: str, files: dict[str, dict]) -> None:
+def audit_dependency(url: str, files: dict[str, dict], production: bool = False) -> None:
     if re.match(r"^data:image/(?:png|jpeg|gif|webp);base64,[A-Za-z0-9+/=]+$", url):
         return
     try:
         parts = urlsplit(url)
-        require(not parts.netloc or f"{parts.scheme}://{parts.netloc}" == ORIGIN, "external-preview-dependency")
+        origin, base = (LIVE_ORIGIN, "/") if production else (ORIGIN, BASE_PATH)
+        require(not parts.netloc or f"{parts.scheme}://{parts.netloc}" == origin, "external-preview-dependency")
         require(not parts.scheme or parts.scheme == "https", "external-preview-dependency")
-        require(parts.path.startswith(BASE_PATH), "incorrect-preview-prefix")
-        path = unquote(parts.path[len(BASE_PATH):], errors="strict")
+        require(parts.path.startswith(base) and not parts.path.startswith("//"), "incorrect-preview-prefix")
+        path = unquote(parts.path[len(base):], errors="strict")
         require("%" not in path and "\\" not in path and not any(p in {".", ".."} for p in path.split("/")), "unsafe-dependency")
         require(path in files or path + "index.html" in files or path.rstrip("/") + "/index.html" in files, "missing-preview-dependency")
     except (UnicodeDecodeError, ValueError) as error:
@@ -187,7 +205,35 @@ def audit_dependency(url: str, files: dict[str, dict]) -> None:
         raise Rejected("unsafe-dependency") from None
 
 
-def audit_content(path: str, data: bytes, files: dict[str, dict]) -> None:
+def redirect_page(url: str) -> bytes:
+    canonical = LIVE_ORIGIN + url if url.startswith("/") else url
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow, noarchive"><meta http-equiv="refresh" content="0;url={url}"><link rel="canonical" href="{canonical}"><title>Continue</title></head><body><p><a href="{url}">Continue</a></p></body></html>\n').encode()
+
+
+def citation_page(identifier: str) -> bytes:
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow, noarchive"><link rel="canonical" href="{LIVE_ORIGIN}/publications/{identifier}"><title>Download citation</title></head><body><p><a href="/citations/{identifier}.bib">BibTeX</a> <a href="/citations/{identifier}.ris">RIS</a></p><script>location.replace(new URLSearchParams(location.search).get("format")==="ris"?"/citations/{identifier}.ris":"/citations/{identifier}.bib");</script></body></html>\n').encode()
+
+
+def production_indexable(files: dict[str, bytes]) -> set[str]:
+    require("sitemap.xml" in files and "blog/feed.xml" in files, "production-discovery")
+    text = files["sitemap.xml"].decode("utf-8")
+    require(not re.search(r"<!DOCTYPE|<!ENTITY", text, re.I), "unsafe-sitemap")
+    result = set()
+    for location in re.findall(r"<loc>([^<]+)</loc>", text):
+        parts = urlsplit(location)
+        require(f"{parts.scheme}://{parts.netloc}" == LIVE_ORIGIN and not parts.query and not parts.fragment,
+                "sitemap-url")
+        path = unquote(parts.path, errors="strict").removeprefix("/").removesuffix("/")
+        require(not re.search(r"[\\\x00-\x1f]", path) and not any(p in {".", ".."} for p in path.split("/")), "sitemap-path")
+        file = path + "/index.html" if path else "index.html"
+        require(file in files and file not in result and legacy_alias_kind(file) is None and file != "404.html", "sitemap-entry")
+        result.add(file)
+    require("index.html" in result, "sitemap-home")
+    return result
+
+
+def audit_content(path: str, data: bytes, files: dict[str, dict], production: bool = False,
+                  indexable: set[str] | None = None, content: dict[str, bytes] | None = None) -> None:
     if path == ".nojekyll":
         require(data == b"", "nonempty-nojekyll")
         return
@@ -199,7 +245,14 @@ def audit_content(path: str, data: bytes, files: dict[str, dict]) -> None:
             raise Rejected("invalid-text-encoding") from None
         require("\x00" not in text, "binary-text")
         require(not SECRET_MARKERS.search(text), "private-content-marker")
-        require(not TRACKING_MARKERS.search(text), "preview-tracking-marker")
+        if not production:
+            require(not TRACKING_MARKERS.search(text), "preview-tracking-marker")
+        else:
+            require(ORIGIN + BASE_PATH not in text and "Analytics is disabled on this test preview." not in text, "preview-residue")
+            if TRACKING_MARKERS.search(text):
+                require(re.fullmatch(r"cached-static/.+/regional-google-analytics-[^/]+\.js", path) is not None
+                        and "google-analytics.com" not in text
+                        and all(value == "G-5K4CVPJ8KX" for value in re.findall(r"G-[A-Z0-9]{6,}", text)), "production-tracking-scope")
         if extension == ".html":
             audit = PageAudit()
             try:
@@ -207,15 +260,24 @@ def audit_content(path: str, data: bytes, files: dict[str, dict]) -> None:
                 audit.close()
             except Exception:
                 raise Rejected("invalid-html") from None
-            require(bool(audit.robots) and all(
-                {part.strip().lower() for part in value.split(",")} == {"noindex", "nofollow", "noarchive"}
-                for value in audit.robots), "preview-index-policy")
-            require(all(url == LIVE_ORIGIN or url.startswith(LIVE_ORIGIN + "/")
+            require(bool(audit.robots), "missing-index-policy")
+            for value in audit.robots:
+                policy = {part.strip().lower() for part in value.split(",")}
+                if not production:
+                    require(policy == {"noindex", "nofollow", "noarchive"}, "preview-index-policy")
+                elif path in (indexable or set()):
+                    require({"index", "follow"} <= policy and not {"noindex", "nofollow"} & policy, "production-index-policy")
+                else:
+                    require("noindex" in policy and "index" not in policy, "production-index-policy")
+            require(all((production and path == "admin/index.html" and url == OWNER_URL)
+                        or url == LIVE_ORIGIN or url.startswith(LIVE_ORIGIN + "/")
                         for url in audit.canonicals), "changed-live-canonical")
             for url in audit.dependencies:
-                audit_dependency(url, files)
+                audit_dependency(url, files, production)
         if path == "robots.txt":
-            require(text.replace("\r\n", "\n").strip() == "User-agent: *\nDisallow: /", "preview-robots-policy")
+            require(text == PRODUCTION_ROBOTS if production else text.replace("\r\n", "\n").strip() == "User-agent: *\nDisallow: /", "robots-policy")
+        if production and path == "indexnow-verification.txt":
+            require(text == INDEXNOW_KEY, "indexnow-key")
     else:
         signatures = {
             ".pdf": data.startswith(b"%PDF-"),
@@ -228,12 +290,25 @@ def audit_content(path: str, data: bytes, files: dict[str, dict]) -> None:
             ".ico": data.startswith(b"\x00\x00\x01\x00"),
         }
         require(signatures.get(extension, False), "binary-signature")
+    alias = legacy_alias_kind(path) if production else None
+    if alias == "admin":
+        require(data == redirect_page(OWNER_URL), "admin-handoff")
+    elif alias == "cv":
+        target = f"downloads/Masud-Rabbani-Academic-CV.{path.split('/')[2]}"
+        require(target in files and data == redirect_page("/" + target), "cv-alias")
+    elif alias == "citation":
+        identifier = path.split("/")[2]
+        require(f"citations/{identifier}.bib" in files and f"citations/{identifier}.ris" in files
+                and data == citation_page(identifier), "citation-alias")
+    elif alias == "media":
+        require(content is not None and content.get("media/blog/" + path.removeprefix("api/blog/media/")) == data, "media-alias-integrity")
 
 
 def verify_archive(archive_bytes: bytes, manifest_bytes: bytes) -> dict[str, bytes]:
     """Return verified bytes only after every entry passes. Never extract blindly."""
     require(22 <= len(archive_bytes) <= MAX_ARCHIVE_BYTES, "archive-size")
     manifest = parse_manifest(manifest_bytes)
+    production = manifest["origin"] == LIVE_ORIGIN
     require(sha256(archive_bytes) == manifest["archiveSha256"], "archive-hash-mismatch")
     # No prepended executable, trailing data, ZIP64, split archive, or comments.
     require(archive_bytes.startswith(b"PK\x03\x04") and archive_bytes[-22:-18] == b"PK\x05\x06", "zip-envelope")
@@ -249,7 +324,7 @@ def verify_archive(archive_bytes: bytes, manifest_bytes: bytes) -> dict[str, byt
             items = archive.infolist()
             require(len(items) == entries == len(expected) and not archive.comment, "archive-inventory")
             for item in items:
-                path = checked_path(item.orig_filename)
+                path = checked_path(item.orig_filename, production)
                 require(item.filename == item.orig_filename and path in expected and path not in verified, "archive-inventory")
                 mode = item.external_attr >> 16
                 require(not item.is_dir() and (stat.S_IFMT(mode) in {0, stat.S_IFREG})
@@ -270,13 +345,15 @@ def verify_archive(archive_bytes: bytes, manifest_bytes: bytes) -> dict[str, byt
                         chunks.append(chunk)
                 data = b"".join(chunks)
                 require(size == expected[path]["bytes"] and sha256(data) == expected[path]["sha256"], "file-hash-mismatch")
-                audit_content(path, data, expected)
                 verified[path] = data
             require(set(verified) == set(expected), "archive-inventory")
     except Rejected:
         raise
     except (zipfile.BadZipFile, RuntimeError, NotImplementedError, EOFError, OSError, ValueError):
         raise Rejected("invalid-archive") from None
+    indexable = production_indexable(verified) if production else None
+    for path, data in verified.items():
+        audit_content(path, data, expected, production, indexable, verified)
     return verified
 
 
